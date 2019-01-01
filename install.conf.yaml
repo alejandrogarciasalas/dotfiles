@@ -1,3 +1,5 @@
 - clean: []
 - link: {}
-- shell: []
+- shell:
+  - [sh setup-zsh.sh, Installing zsh and changing the shell to it]
+  - [sh setup-brew.sh, Installing Homebrew and Brewfile]
