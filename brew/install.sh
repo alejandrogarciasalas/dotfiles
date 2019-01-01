@@ -10,4 +10,6 @@ else
 fi
 
 brew tap homebrew/bundle  # Install Homebrew Bundle
-brew bundle # Install Brewfile
+
+# TODO: figure out a cleaner way to setup this path relative to dotfiles or root directory
+brew bundle --file=brew/Brewfile # Install Brewfile
