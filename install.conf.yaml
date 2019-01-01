@@ -1,5 +1,10 @@
+- defaults:
+    shell:
+      stdout: true
+      stderr: true
+
 - clean: []
 - link: {}
 - shell:
-  - [sh setup-zsh.sh, Installing zsh and changing the shell to it]
+  - [sh setup-zsh.sh, Installing and changing the default shell to zsh]
   - [sh setup-brew.sh, Installing Homebrew and Brewfile]

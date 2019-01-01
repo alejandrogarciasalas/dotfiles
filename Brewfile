@@ -1,6 +1,7 @@
 # Binaries
 brew "git"
 brew "mas"
+brew "m-cli"
 
 # Apps
 cask "bartender"
