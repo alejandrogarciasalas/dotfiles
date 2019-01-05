@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Check if Homebrew is installed
 if [ ! -f "`which brew`" ]; then
