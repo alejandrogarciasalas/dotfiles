@@ -1,4 +1,5 @@
 # enable tab-completion menu
 autoload -Uz compinit
 compinit
-zstyle ':completion:*' menu select
+# with case insensitive matching
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' menu select
