@@ -41,6 +41,9 @@ defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
 ## Spectacles: preferred keyboard shortcuts
 cp -r ~/.dotfiles/macos/spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json
 
+# Don’t show recent applications in Dock
+defaults write com.apple.dock show-recents -bool false
+
 ### ********** Finally, kill affected applications **********
 for app in "Activity Monitor" \
 	"Dock" \
