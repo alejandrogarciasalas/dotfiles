@@ -1,11 +1,13 @@
-HISTFILE=~/.zsh_history
+
 HISTSIZE=10000
 SAVEHIST=10000
 
 source <(antibody init)
 antibody bundle < ~/.dotfiles/zsh/.zsh_plugins.txt
 
+# NOTE: oh-my-zsh defaults here for reference: https://github.com/robbyrussell/oh-my-zsh/tree/master/lib
 source ~/.dotfiles/zsh/options.zsh
+source ~/.dotfiles/zsh/completion.zsh
 source ~/.dotfiles/zsh/alias.sh
 
 eval $(thefuck --alias)
