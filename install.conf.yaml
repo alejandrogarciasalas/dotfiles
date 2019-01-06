@@ -26,8 +26,8 @@
     # Git
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
-    # Sublime Text #TODO:
-    # "~/Library/Application Support/Sublime Text 3/Packages/User": sublime
+    # Sublime Text
+    "~/Library/Application Support/Sublime Text 3/Packages/User": sublime
     # VS Code
     ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
     ~/Library/Application Support/Code/User/keybindings.json: vscode/keybindings.json
