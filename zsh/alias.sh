@@ -1,4 +1,5 @@
-alias ls='ls -G' # colorize output, TODO: this mac is MACOS ONLY (https://superuser.com/questions/183876/how-do-i-get-ls-color-auto-to-work-on-mac-os-x)
+# alias ls='ls -G' # colorize output, TODO: this mac is MACOS ONLY (https://superuser.com/questions/183876/how-do-i-get-ls-color-auto-to-work-on-mac-os-x)
+alias ls='colorls'
 
 # case insensitive search
 alias hs='history|grep -i '
