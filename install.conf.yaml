@@ -12,6 +12,7 @@
   - [sh brew/install.sh, Installing Homebrew and Brewfile]
   - [sh zsh/install.sh, changing the default shell to zsh]
   - [sh macos/install.sh, setting up MacOS defaults]
+  - [source vscode/import-extensions.sh, importing VSCode Extensions]
 # `source` executes script on same shell rather thank forking
   - [source node/install.sh, setting up nvm and downloading node]
   - [source ruby/install.sh, setting up rvm and downloading ruby]
