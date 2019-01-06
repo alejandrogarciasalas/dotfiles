@@ -6,18 +6,28 @@
 # TODO: add anything else here?
 - clean: ["~"]
 
+# TODO: figure out best practices on using sh vs source.
+# Source executes the script on the same shell and sh will create a fork.
 - shell:
-  - [sh zsh/install.sh, Installing and changing the default shell to zsh]
   - [sh brew/install.sh, Installing Homebrew and Brewfile]
+  - [sh zsh/install.sh, changing the default shell to zsh]
+  - [sh macos/install.sh, setting up MacOS defaults]
+# `source` executes script on same shell rather thank forking
+  - [source node/install.sh, setting up nvm and downloading node]
+  - [source ruby/install.sh, setting up rvm and downloading ruby]
+  - [source python/install.sh, setting up pyenv, virtualenv and downloading Python]
 
 - link:
-  # zsh
-  ~/.zshrc: zsh/zshrc.zsh
-  # git
-  ~/.gitconfig: git/gitconfig
-  ~/.gitignore_global: git/gitignore_global
-  # Sublime Text # TODO: copy over files
-  # "~/Library/Application Support/Sublime Text 3/Packages/User": sublime
-  # VSCode # TODO: copy over files
-  # ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
-  # ~/Library/Application Support/Code/User/keybindings.json: vscode/keybindings.json
+    ~/.dotfiles: ''
+    # Curl
+    ~/.curlrc: curl/.curlrc
+    # Zsh
+    ~/.zshrc: zsh/.zshrc
+    # Git
+    ~/.gitconfig: git/gitconfig
+    ~/.gitignore_global: git/gitignore_global
+    # Sublime Text #TODO:
+    # "~/Library/Application Support/Sublime Text 3/Packages/User": sublime
+    # VS Code
+    ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
+    ~/Library/Application Support/Code/User/keybindings.json: vscode/keybindings.json

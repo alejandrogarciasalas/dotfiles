@@ -1,0 +1,102 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+      "key": "shift+alt+up",
+      "command": "cursorUpSelect",
+      "when": "textInputFocus"
+  },
+  {
+      "key": "shift+up",
+      "command": "-cursorUpSelect",
+      "when": "textInputFocus"
+  },
+  {
+      "key": "shift+alt+down",
+      "command": "cursorDownSelect",
+      "when": "textInputFocus"
+  },
+  {
+      "key": "shift+down",
+      "command": "-cursorDownSelect",
+      "when": "textInputFocus"
+  },
+  {
+      "key": "cmd+w",
+      "command": "workbench.action.closeWindow",
+      "when": "!editorIsOpen && !multipleEditorGroups"
+  },
+  {
+      "key": "shift+cmd+w",
+      "command": "-workbench.action.closeWindow"
+  },
+  {
+      "key": "cmd+h cmd+a",
+      "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+      "key": "shift+down",
+      "command": "editor.action.copyLinesDownAction",
+      "when": "editorFocus"
+  },
+  {
+      "key": "shift+cmd+d",
+      "command": "-editor.action.copyLinesDownAction",
+      "when": "editorFocus"
+  },
+  {
+      "key": "shift+down",
+      "command": "editor.action.copyLinesDownAction",
+      "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "shift+alt+down",
+      "command": "-editor.action.copyLinesDownAction",
+      "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "shift+up",
+      "command": "editor.action.copyLinesUpAction",
+      "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "shift+alt+up",
+      "command": "-editor.action.copyLinesUpAction",
+      "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "shift+alt+down", // redundant since is the default behavior for the plugin but here for reference
+      "command": "better-line-select.downward"
+  },
+  {
+      "key": "shift+alt+up", // it didn't work by default with the plugin
+      "command": "better-line-select.upward"
+  },
+  // {
+  //     "key": "cmd+s cmd+a",
+  //     "command": "workbench.files.action.showActiveFileInExplorer"
+  // },
+  // {
+  //     "key": "cmd+p cmd+m",
+  //     "command": "workbench.action.toggleMaximizedPanel"
+  // },
+  // {
+  //     "key": "cmd+p cmd+q",
+  //     "command": "workbench.action.closePanel"
+  // },
+  // {
+  //     "key": "cmd+p cmd+f",
+  //     "command": "workbench.action.focusPanel"
+  // },
+  // {
+  //     "key": "cmd+p cmd+s",
+  //     "command": "workbench.action.togglePanel"
+  // },
+  {
+      "key": "cmd+j",
+      "command": "-workbench.action.togglePanel"
+  }
+  // {
+  //     "key": "cmd+0",
+  //     "command": "-workbench.action.focusSideBar"
+  // }
+]
