@@ -7,8 +7,12 @@ brew install pyenv
 brew install pyenv-virtualenv
 brew install pyenv-virtualenvwrapper
 
+# auto-activate pyenv and pyenv-virtualenv
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
 # install CPython # TODO: figure out how to automatically install latest python idempotently
-pyenv install 3.6.0
+pyenv install 3.7.0
 pyenv install 2.7.13
 
 # avoid polluting global python install by setting separate virtualenvs

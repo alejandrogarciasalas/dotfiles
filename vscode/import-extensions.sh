@@ -2,4 +2,4 @@
 
 while read extension; do
   code --install-extension $extension
-done < vscode-extensions.txt
+done < ~/.dotfiles/vscode/vscode-extensions.txt
