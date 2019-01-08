@@ -16,7 +16,6 @@ ms-python.python
 ms-vscode.cpptools
 ms-vscode.sublime-keybindings
 naumovs.color-highlight
-naumovs.theme-oceanicnext
 oderwat.indent-rainbow
 robinbentley.sass-indented
 sdras.night-owl
