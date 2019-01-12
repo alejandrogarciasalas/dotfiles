@@ -20,8 +20,8 @@
   - [sh vscode/import-extensions.sh, importing VSCode Extensions]
   - [sh iterm/install.sh, import iTerm profile]
   #   # `source` executes script on same shell rather thank forking
-  # - [source node/install.sh, setting up nvm and downloading node]
-  # - [source ruby/install.sh, setting up rvm and downloading ruby]
+  - [source node/install.sh, setting up nvm and downloading node]
+  - [source ruby/install.sh, setting up rvm and downloading ruby]
   # - [source python/install.sh, setting up pyenv, virtualenv and downloading Python]
 
 - link:

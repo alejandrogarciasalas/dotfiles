@@ -5,9 +5,9 @@
 # https://medium.freecodecamp.org/manage-multiple-python-versions-and-virtual-environments-venv-pyenv-pyvenv-a29fb00c296f
 # https://realpython.com/python-virtual-environments-a-primer/
 
-# brew install pyenv
-# brew install pyenv-virtualenv
-# brew install pyenv-virtualenvwrapper
+brew install pyenv
+brew install pyenv-virtualenv
+brew install pyenv-virtualenvwrapper
 
 # auto-activate pyenv and pyenv-virtualenv
 eval "$(pyenv init -)"
