@@ -7,35 +7,38 @@ brew "mas"
 brew "m-cli"
 brew "thefuck"
 brew "zsh"
+brew "getantibody/tap/antibody"
 
 # Fonts
 cask "font-hack-nerd-font" # https://github.com/ryanoasis/nerd-fonts
 
 # Apps
-# cask "bartender"
-# cask "dropbox"
-# cask "firefox"
-# cask "google-chrome"
-# cask "iterm2"
-# cask "kindle"
-# cask "notion"
-# cask "sketch"
-# cask "skype"
-# cask "spotify"
-# cask "spectacle"
-# cask "visual-studio-code"
-# cask "vlc"
-# # TODO: add alfred
-# # TODO: add adobe
-# # TODO: check mackup https://github.com/lra/mackup
+cask "bartender"
+cask "dropbox"
+cask "fantastical"
+cask "firefox"
+cask "google-chrome"
+cask "iterm2"
+cask "kindle"
+cask "notion"
+cask "sketch"
+cask "skype"
+cask "spotify"
+cask "spectacle"
+cask "sublime-text"
+cask "visual-studio-code"
+cask "vlc"
+# TODO: add alfred
+# TODO: add adobe
+# TODO: check mackup https://github.com/lra/mackup
 
 # AppStore Apps
-# mas "1Password 7", id: 1333542190
-# mas "Bear", id: 1091189122
-# mas "Fantastical 2", id: 975937182
-# mas "Slack", id: 803453959
-# mas "Spark", id: 1176895641
-# mas "Todoist", id: 585829637
-# mas "ToothFairy", id: 1191449274
-# mas "The Unarchiver", id: 425424353
-# mas "Xcode", id: 497799835
+mas "1Password 7", id: 1333542190
+mas "Bear", id: 1091189122
+# mas "Fantastical 2", id: 975937182 # TODO: didn't purchase from the appstore
+mas "Slack", id: 803453959
+mas "Spark", id: 1176895641
+mas "Todoist", id: 585829637
+mas "ToothFairy", id: 1191449274
+mas "The Unarchiver", id: 425424353
+mas "Xcode", id: 497799835
