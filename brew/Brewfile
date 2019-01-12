@@ -10,7 +10,8 @@ brew "zsh"
 brew "getantibody/tap/antibody"
 
 # Fonts
-cask "font-hack-nerd-font" # https://github.com/ryanoasis/nerd-fonts
+# https://github.com/Homebrew/homebrew-cask-fonts/blob/master/Casks/font-dejavusansmono-nerd-font.rb
+cask "font-dejavusansmono-nerd-font"
 
 # Apps
 cask "bartender"

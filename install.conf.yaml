@@ -17,7 +17,7 @@
   - [sh brew/install.sh, Installing Homebrew and Brewfile]
   - [sh zsh/install.sh, changing the default shell to zsh]
   - [sh macos/install.sh, setting up MacOS defaults]
-  # - [sh vscode/import-extensions.sh, importing VSCode Extensions]
+  - [sh vscode/import-extensions.sh, importing VSCode Extensions]
   # - [sh iterm/install.sh, import iTerm profile]
   #   # `source` executes script on same shell rather thank forking
   # - [source node/install.sh, setting up nvm and downloading node]
@@ -38,5 +38,5 @@
     # Sublime Text
     # "~/Library/Application Support/Sublime Text 3/Packages/User": sublime
     # VS Code
-    # ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
-    # ~/Library/Application Support/Code/User/keybindings.json: vscode/keybindings.json
+    ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
+    ~/Library/Application Support/Code/User/keybindings.json: vscode/keybindings.json

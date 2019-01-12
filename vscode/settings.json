@@ -1,7 +1,7 @@
 {
   "bracketPairColorizer.showBracketsInGutter": true,
   "cSpell.language": "en",
-  "editor.fontFamily": "Dejavu Sans Mono",
+  "editor.fontFamily": "DejaVuSansMono Nerd Font",
   "editor.fontSize": 14,
   "editor.renderWhitespace": "all",
   "editor.scrollBeyondLastLine": false,
