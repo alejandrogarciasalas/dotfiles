@@ -22,7 +22,7 @@
   #   # `source` executes script on same shell rather thank forking
   - [source node/install.sh, setting up nvm and downloading node]
   - [source ruby/install.sh, setting up rvm and downloading ruby]
-  # - [source python/install.sh, setting up pyenv, virtualenv and downloading Python]
+  - [source python/install.sh, setting up pyenv, virtualenv and downloading Python]
 
 - link:
     ~/.dotfiles: ''
@@ -36,7 +36,7 @@
     # Vim
     ~/.vimrc: vim/vimrc
     # Sublime Text
-    # "~/Library/Application Support/Sublime Text 3/Packages/User": sublime
+    "~/Library/Application Support/Sublime Text 3/Packages/User": sublime
     # VS Code
     ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
     ~/Library/Application Support/Code/User/keybindings.json: vscode/keybindings.json
