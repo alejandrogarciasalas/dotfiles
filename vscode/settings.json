@@ -19,4 +19,5 @@
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.feedback.visible": false,
+  "gitlens.mode.active": "zen",
 }

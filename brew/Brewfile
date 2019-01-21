@@ -14,6 +14,7 @@ brew "getantibody/tap/antibody"
 cask "font-dejavusansmono-nerd-font"
 
 # Apps
+cask "adobe-creative-cloud" # just downloads installer
 cask "bartender"
 cask "dropbox"
 cask "fantastical"
@@ -30,7 +31,6 @@ cask "sublime-text"
 cask "visual-studio-code"
 cask "vlc"
 # TODO: add alfred
-# TODO: add adobe
 # TODO: check mackup https://github.com/lra/mackup
 
 # AppStore Apps

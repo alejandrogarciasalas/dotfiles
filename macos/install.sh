@@ -11,8 +11,6 @@ sudo -v
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 
 # ********** Keyboard and Mouse **********
-# TODO: tune: mouse and keyrepeat speed delay
-
 # Enable full keyboard access for all controls
 # (e.g. enable Tab in modal dialogs)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
@@ -31,9 +29,11 @@ defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 # Disable press-and-hold for keys in favor of key repeat
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
-# Set a blazingly fast keyboard repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 1
-defaults write NSGlobalDomain InitialKeyRepeat -int 10
+# Set keyboard repeat rate
+# referance for default and sliders:
+# https://apple.stackexchange.com/questions/261163/default-value-for-nsglobaldomain-initialkeyrepeat
+defaults write -g KeyRepeat -int 4
+defaults write -g InitialKeyRepeat -int 25
 
 # ********** Finder **********
 # Finder: show hidden files by default
@@ -57,6 +57,76 @@ sudo chflags nohidden /Volumes
 
 # ********** Safari **********
 # Safari: Privacy, don’t send search queries to Apple
+defaults write com.apple.Safari UniversalSearchEnabled -bool false
+defaults write com.apple.Safari SuppressSearchSuggestions -bool true
+
+# Safari: Enable the Develop menu and the Web Inspector
+defaults write com.apple.Safari IncludeDevelopMenu -bool true
+defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
+
+# Safari: Enable “Do Not Track”
+defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
+
+# ********** Spectacles **********
+## Spectacles: preferred keyboard shortcuts
+cp -r ~/.dotfiles/macos/spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json
+
+# Don’t show recent applications in Dock
+defaults write com.apple.dock show-recents -bool false
+
+# Follow the keyboard focus while zoomed in
+defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
+
+# Disable press-and-hold for keys in favor of key repeat
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+
+# Set keyboard repeat rate
+# referance for default and sliders:
+# https://apple.stackexchange.com/questions/261163/default-value-for-nsglobaldomain-initialkeyrepeat
+defaults write -g KeyRepeat -int 4
+defaults write -g InitialKeyRepeat -int 25
+
+# ********** Finder **********
+# Finder: show hidden files by default
+defaults write com.apple.finder AppleShowAllFiles -bool true
+
+# Finder: show all filename extensions
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# Finder: Avoid creating .DS_Store files on network or USB volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+
+# Finder: show path bar
+defaults write com.apple.finder ShowPathbar -bool true
+
+# Finder: Show the ~/Library folder
+chflags nohidden ~/Library
+
+# Finder: Show the /Volumes folder
+sudo chflags nohidden /Volumes
+
+# ********** Safari **********
+# Safari: Privacy, don’t send search queries to Apple
+defaults write com.apple.Safari UniversalSearchEnabled -bool false
+defaults write com.apple.Safari SuppressSearchSuggestions -bool true
+
+# Safari: Enable the Develop menu and the Web Inspector
+defaults write com.apple.Safari IncludeDevelopMenu -bool true
+defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
+
+# Safari: Enable “Do Not Track”
+defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
+
+# ********** Spectacles **********
+## Spectacles: preferred keyboard shortcuts
+cp -r ~/.dotfiles/macos/spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json
+
+# Don’t show recent applications in Dock
+defaults write com.apple.dock show-recents -bool false
+
 defaults write com.apple.Safari UniversalSearchEnabled -bool false
 defaults write com.apple.Safari SuppressSearchSuggestions -bool true
 
