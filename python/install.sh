@@ -21,12 +21,12 @@ eval "$(pyenv virtualenv-init -)"
 
 # install CPython # TODO: figure out how to automatically install latest python idempotently
 # these flags are needed on Mojave (https://github.com/pyenv/pyenv/issues/1219)
-CFLAGS="-I$(xcrun --show-sdk-path)/usr/include" pyenv install 3.7.0
+CFLAGS="-I$(xcrun --show-sdk-path)/usr/include" pyenv install 3.6.0
 CFLAGS="-I$(xcrun --show-sdk-path)/usr/include" pyenv install 2.7.13
 
 # avoid polluting global python install by setting separate virtualenvs
-pyenv virtualenv 3.7.0 jupyter3
-pyenv virtualenv 3.7.0 tools3
+pyenv virtualenv 3.6.0 jupyter3
+pyenv virtualenv 3.6.0 tools3
 pyenv virtualenv 2.7.13 tools2
 
 # install pip dependencies
@@ -39,4 +39,4 @@ pip install youtube-dl
 pyenv deactivate
 
 # establish PATH priority
-pyenv global 3.7.0 2.7.13 jupyter3 tools3 tools2
+pyenv global 3.6.0 2.7.13 jupyter3 tools3 tools2
