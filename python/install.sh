@@ -9,6 +9,10 @@ brew install pyenv
 brew install pyenv-virtualenv
 brew install pyenv-virtualenvwrapper
 
+# makes libraries that depend on _tkinter work
+# https://jackklpan.github.io/hexo-blog/2016/07/28/mac-brew-pyenv-import-tkinter/
+brew install tcl-tk
+
 # All virtualenvs will be on...
 mkdir ~/.virtualenvs
 
