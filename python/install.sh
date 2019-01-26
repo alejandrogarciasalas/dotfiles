@@ -9,6 +9,13 @@ brew install pyenv
 brew install pyenv-virtualenv
 brew install pyenv-virtualenvwrapper
 
+# All virtualenvs will be on...
+mkdir ~/.virtualenvs
+
+export WORKON_HOME=~/.virtualenvs
+export PROJECT_HOME=~/code
+pyenv virtualenvwrapper_lazy
+
 # auto-activate pyenv and pyenv-virtualenv
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
