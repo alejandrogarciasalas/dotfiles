@@ -24,9 +24,12 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
 # install CPython # TODO: figure out how to automatically install latest python idempotently
-# these flags are needed on Mojave (https://github.com/pyenv/pyenv/issues/1219)
-CFLAGS="-I$(xcrun --show-sdk-path)/usr/include" pyenv install 3.6.0
-CFLAGS="-I$(xcrun --show-sdk-path)/usr/include" pyenv install 2.7.13
+# CFLAGS flags are needed on Mojave (https://github.com/pyenv/pyenv/issues/1219)
+# --enable framework flag is needed for matplotlib https://github.com/pyenv/pyenv-virtualenv/issues/140
+CFLAGS="-I$(xcrun --show-sdk-path)/usr/include" env PYTHON_CONFIGURE_OPTS="--enable-framework CC=clang" pyenv install 3.6.0
+
+CFLAGS="-I$(xcrun --show-sdk-path)/usr/include"
+pyenv install 2.7.13
 
 # avoid polluting global python install by setting separate virtualenvs
 pyenv virtualenv 3.6.0 jupyter3
