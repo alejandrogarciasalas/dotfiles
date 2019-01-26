@@ -12,9 +12,8 @@ brew install pyenv-virtualenvwrapper
 # All virtualenvs will be on...
 mkdir ~/.virtualenvs
 
-export WORKON_HOME=~/.virtualenvs
-export PROJECT_HOME=~/code
-pyenv virtualenvwrapper_lazy
+# VIRTUALENV and WORKON exports are defined on .zshrc
+# pyenv virtualenvwrapper_lazy is called on .zshrc as well
 
 # auto-activate pyenv and pyenv-virtualenv
 eval "$(pyenv init -)"
