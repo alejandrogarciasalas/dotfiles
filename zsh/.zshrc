@@ -23,6 +23,3 @@ eval "$(pyenv virtualenv-init -)"
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/code
 pyenv virtualenvwrapper_lazy
-
-# add github key to authentication agent
-ssh-add -K ~/.ssh/github_rsa
