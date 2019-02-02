@@ -20,4 +20,15 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.feedback.visible": false,
   "gitlens.mode.active": "zen",
+  // cpp stuff: https://github.com/Microsoft/vscode-cpptools/issues/2456
+  "cmake.debugConfig": {
+    "stopAtEntry": false,
+    "MIMode": "lldb",
+    "miDebuggerPath": "/Users/alejandro/.vscode/extensions/ms-vscode.cpptools-0.21.0/debugAdapters/lldb/bin/lldb-mi",
+    "logging": {
+            "trace": true,
+            "engineLogging": true,
+            "traceResponse": true
+    }
+  }
 }
