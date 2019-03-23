@@ -1,0 +1,7 @@
+# link this file to ~/.ssh/config
+# configure SSH to always use the keychain
+# https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically
+Host *
+  UseKeychain yes
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/github_rsa
