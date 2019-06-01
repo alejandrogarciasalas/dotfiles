@@ -13,13 +13,12 @@
   "search.location": "panel",
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Night Owl No Italics",
+  "workbench.colorTheme": "Night Owl (No Italics)",
   "workbench.editor.enablePreview": true,
   "workbench.panel.defaultLocation": "right",
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.feedback.visible": false,
-  "gitlens.mode.active": "zen",
   // cpp stuff: https://github.com/Microsoft/vscode-cpptools/issues/2456
   "cmake.debugConfig": {
     "stopAtEntry": false,
@@ -30,5 +29,15 @@
             "engineLogging": true,
             "traceResponse": true
     }
-  }
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.settings.editor": "json",
+  "workbench.settings.useSplitJSON": true,
+  "terminal.integrated.fontFamily": "DejaVuSansMono Nerd Font",
+  "workbench.fontAliasing": "auto",
+  "editor.snippetSuggestions": "top",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "cmake.configureOnOpen": true,
+  "gitlens.mode.active": "zen"
 }
