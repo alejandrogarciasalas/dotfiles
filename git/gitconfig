@@ -5,6 +5,9 @@
     email = garciasalasalejandro@gmail.com
 [github]
     user = alejandrogarciasalas
+[include]
+  path = ~/.dotfiles/git/gitalias.txt
+# these get created by the git lfs install command https://github.com/git-lfs/git-lfs/wiki/Tutorial
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f

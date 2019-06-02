@@ -18,12 +18,3 @@ alias hs='history|grep'
 
 # git
 alias g='git'
-alias gst='git status'
-alias ga='git add'
-alias gc='git commit'
-alias gcmsg='git commit -m'
-alias gp='git push'
-alias gl='git pull'
-alias gpo='git push origin'
-alias gpom='git push origin master'
-alias gchk='git checkout'
