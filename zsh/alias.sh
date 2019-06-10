@@ -5,6 +5,7 @@ if ! [ -x "$(command -v colorls)" ]; then
 else
   echo "colorls is not installed defaulting ls alias to ls -G"
   alias ls='ls -G' # colorize output, TODO: this mac is MACOS ONLY (https://superuser.com/questions/183876/how-do-i-get-ls-color-auto-to-work-on-mac-os-x)
+  # alternatively use gls (GNU coreutils) and gls --color
 fi
 
 if [ -x "$(command -v bat)" ]; then

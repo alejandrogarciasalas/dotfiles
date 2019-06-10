@@ -2,6 +2,7 @@
 
 TODO:
 * setup PGP key for git
+* less with syntax highlighting?
 
 drew some inspiration from:
 * https://github.com/iraquitan/iraquitan-dotfiles

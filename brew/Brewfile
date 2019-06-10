@@ -1,5 +1,16 @@
 tap 'caskroom/fonts'
 
+# GNU coreutils #https://apple.stackexchange.com/questions/69223/how-to-replace-mac-os-x-utilities-with-gnu-core-utilities
+brew "coreutils"
+brew "findutils"
+brew "gnu-indent"
+brew "gnu-getopt"
+brew "gnu-sed"
+brew "gnutls"
+brew "grep"
+brew "gnu-tar"
+brew "gawk"
+
 # Binaries
 brew "bat"
 brew "git"
@@ -22,6 +33,7 @@ cask "fantastical"
 cask "figma"
 cask "firefox"
 cask "google-chrome"
+cask "imageoptim"
 cask "iterm2"
 cask "kindle"
 cask "notion"
