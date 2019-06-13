@@ -1,12 +1,9 @@
-# shell improvements
-
-alias ls='exa'
-alias cat='bat'
-alias top='htop'
-alias ping='prettyping --nolegend'
-
-# case insensitive search
-alias hs='history|grep'
-
-# git
-alias g='git'
+alias ls="exa"
+alias ll="exa -lh"
+alias la="exa -lhaa"
+alias cat="bat"
+alias top="htop"
+alias ping="prettyping --nolegend"
+alias grep="rg" # ripgrep
+alias hs="history|grep"
+alias g="git"

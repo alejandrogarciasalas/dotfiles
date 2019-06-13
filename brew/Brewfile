@@ -13,6 +13,7 @@ brew "gawk"
 
 # Binaries
 brew "bat"
+brew "exa"
 brew "htop"
 brew "git"
 brew "git-lfs"
