@@ -14,6 +14,18 @@ else
   echo "bat is not installed can't create alias cat='bat' alias"
 fi
 
+if [ -x "$(command -v htop)" ]; then
+  alias top='htop'
+else
+  echo "htop is not installed can't create alias top='htop' alias"
+fi
+
+if [ -x "$(command -v prettyping)" ]; then
+  alias ping='prettyping --nolegend'
+else
+  echo "prettyping is not installed can't create alias ping='prettyping' alias"
+fi
+
 # case insensitive search
 alias hs='history|grep'
 

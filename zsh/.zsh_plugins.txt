@@ -3,7 +3,7 @@ mafredri/zsh-async
 rupa/z
 lukechilds/zsh-nvm
 sindresorhus/pure
-#supercrabtree/k # TODO: figure out whether I want to keep this
+supercrabtree/k
 Tarrasch/zsh-bd
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-completions

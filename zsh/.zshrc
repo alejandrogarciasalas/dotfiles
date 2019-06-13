@@ -12,10 +12,13 @@ antibody bundle < ~/.dotfiles/zsh/.zsh_plugins.txt
 # source ~/.dotfiles/zsh/.zsh_plugins.sh
 
 # NOTE: oh-my-zsh defaults here for reference: https://github.com/robbyrussell/oh-my-zsh/tree/master/lib
-source ~/.dotfiles/zsh/history.zsh
 source ~/.dotfiles/zsh/completion.zsh
-source ~/.dotfiles/zsh/alias.sh
+source ~/.dotfiles/zsh/grep.zsh
+source ~/.dotfiles/zsh/history.zsh
 source ~/.dotfiles/zsh/key-bindings.zsh
+
+# custom aliases
+source ~/.dotfiles/zsh/alias.sh
 
 eval $(thefuck --alias)
 
