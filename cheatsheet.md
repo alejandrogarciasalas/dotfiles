@@ -159,6 +159,8 @@ chgrp new_group some_file – change group ownership (this is older and you can
 **chmod "desired_permissions_seetings" some file**
 * you can write this in two ways octal notation
 
+passwd – for changing your password
+
 octal notation:
 **this is how permissions work for example**
 rwx rwx rwx = 111 111 111
