@@ -33,3 +33,7 @@ eval "$(pyenv virtualenv-init -)"
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/code
 pyenv virtualenvwrapper_lazy
+
+# this typically gets added to by the fzf install script along with the .fzf.zsh file
+# I am adding it here manually to have more control
+[ -f ~/.dotfiles/zsh/.fzf.zsh ] && source ~/.dotfiles/zsh/.fzf.zsh

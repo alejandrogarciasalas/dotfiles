@@ -19,6 +19,7 @@ brew "git-lfs"
 brew "mas"
 brew "m-cli"
 brew "thefuck"
+brew "tldr"
 brew "zsh"
 brew "getantibody/tap/antibody"
 
