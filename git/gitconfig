@@ -1,5 +1,10 @@
 [core]
     editor = "vim"
+[pager]
+    # TODO: figure out what -rfx does, copy pasted from https://remysharp.com/2018/08/23/cli-improved
+    # this is what the diff-so-fancy docs advice as well https://github.com/so-fancy/diff-so-fancy
+    diff = diff-so-fancy | less --tabs=2 -RFX
+    show = diff-so-fancy | less --tabs=2 -RFX
 [user]
     name = alejandrogarciasalas
     email = garciasalasalejandro@gmail.com
