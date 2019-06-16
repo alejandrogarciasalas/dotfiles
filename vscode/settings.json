@@ -8,12 +8,15 @@
   "editor.scrollBeyondLastLine": false,
   "editor.tabSize": 2,
   "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript ": "javascriptreact"
+  },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "search.location": "panel",
   "window.zoomLevel": 0,
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "workbench.colorTheme": "Night Owl (No Italics)",
   "workbench.editor.enablePreview": true,
   "workbench.panel.defaultLocation": "right",
@@ -27,11 +30,40 @@
   "workbench.fontAliasing": "auto",
   "editor.snippetSuggestions": "top",
   "diffEditor.ignoreTrimWhitespace": false,
-  "gitlens.mode.active": "zen",
   "macros": {
     "collapseAndClose": [
       "workbench.files.action.collapseExplorerFolders",
       "workbench.action.closeAllEditors",
     ]
   },
+  "gitlens.views.repositories.location": "scm",
+  "gitlens.views.fileHistory.location": "explorer",
+  "gitlens.views.lineHistory.location": "explorer",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.search.location": "gitlens",
+  "gitlens.heatmap.toggleMode": "window",
+  "gitlens.recentChanges.toggleMode": "window",
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "left": {
+        "custom": {
+          "borderWidth": "0 0 0 1px",
+          "borderStyle": "dotted",
+          "borderColor": "white",
+          "borderRadius": "5px",
+          "overviewRulerColor": "white"
+        }
+      },
+      "right": {
+        "custom": {
+          "borderWidth": "0 1px 0 0",
+          "borderStyle": "dotted",
+          "borderColor": "white",
+          "borderRadius": "5px",
+          "overviewRulerColor": "white"
+        }
+      }
+    }
+  }
+
 }

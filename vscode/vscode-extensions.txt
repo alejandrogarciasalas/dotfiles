@@ -1,8 +1,10 @@
 alefragnani.Bookmarks
 alefragnani.project-manager
+bierner.lit-html
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
-CoenraadS.bracket-pair-colorizer
+codezombiech.gitignore
+CoenraadS.bracket-pair-colorizer-2
 DavidAnson.vscode-markdownlint
 dbaeumer.jshint
 dbaeumer.vscode-eslint
@@ -11,11 +13,12 @@ eamodio.gitlens
 EditorConfig.EditorConfig
 formulahendry.auto-rename-tag
 geddski.macros
+GitHub.vscode-pull-request-github
 HookyQR.beautify
-ionutvmi.spacegray-vscode
 kaiwood.better-line-select
 kisstkondoros.vscode-gutter-preview
 lihui.vs-color-picker
+mkaufman.HTMLHint
 ms-python.python
 ms-vscode.sublime-keybindings
 naumovs.color-highlight
@@ -24,6 +27,7 @@ patbenatar.advanced-new-file
 robinbentley.sass-indented
 sdras.night-owl
 shardulm94.trailing-spaces
+sidneys1.gitconfig
 SirTori.indenticator
 sleistner.vscode-fileutils
 streetsidesoftware.code-spell-checker

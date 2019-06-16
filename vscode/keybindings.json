@@ -99,7 +99,7 @@
     },
     // ********************** macros **********************
     {
-        "key": "alt+w",
+        "key": "cmd+k alt+w",
         "command": "macros.collapseAndClose",
     },
     // *********** re-define keybindings so they take precedence ***********
@@ -107,5 +107,14 @@
         "key": "cmd+k",
         "command": "workbench.action.terminal.clear",
         "when": "terminalFocus"
+    },
+    // ********************** Activity Bar **********************
+    {
+        "key": "cmd+h cmd+a",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "ctrl+alt+g",
+        "command": "workbench.view.extension.gitlens"
     },
 ]
