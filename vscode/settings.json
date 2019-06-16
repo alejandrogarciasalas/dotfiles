@@ -3,6 +3,7 @@
   "cSpell.language": "en",
   "editor.fontFamily": "DejaVuSansMono Nerd Font",
   "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
   "editor.renderWhitespace": "all",
   "editor.scrollBeyondLastLine": false,
   "editor.tabSize": 2,
@@ -39,5 +40,5 @@
   "editor.snippetSuggestions": "top",
   "diffEditor.ignoreTrimWhitespace": false,
   "cmake.configureOnOpen": true,
-  "gitlens.mode.active": "zen"
+  "gitlens.mode.active": "zen",
 }

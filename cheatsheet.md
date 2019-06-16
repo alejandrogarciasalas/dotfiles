@@ -201,3 +201,4 @@ solution is **cmd+down**
 * move cursor to next word for selected word **command+k+command+d**
 * undo last cursor action **command+u**
 * show problems **cmd+shift+m**
+* join lines **command+j**
