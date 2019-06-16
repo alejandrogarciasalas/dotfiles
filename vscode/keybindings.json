@@ -70,6 +70,10 @@
         "command": "workbench.action.togglePanel"
     },
     {
+        "key": "cmd+j",
+        "command": "-workbench.action.togglePanel" // old
+    },
+    {
         "key": "alt+cmd+left",
         "command": "workbench.action.previousPanelView",
         "when": "panelFocus"
@@ -78,6 +82,20 @@
         "key": "alt+cmd+right",
         "command": "workbench.action.nextPanelView",
         "when": "panelFocus"
+    },
+    {
+        "key": "alt+cmd+up",
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "panelFocus"
+    },
+    {
+        "key": "alt+cmd+down",
+        "command": "workbench.action.togglePanelPosition",
+        "when": "panelFocus"
+    },
+    {
+        "key": "shift+cmd+9",
+        "command": "workbench.action.focusPanel"
     },
     // ********************** macros **********************
     {
