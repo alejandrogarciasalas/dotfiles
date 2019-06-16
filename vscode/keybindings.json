@@ -64,4 +64,8 @@
         "key": "shift+cmd+w",
         "command": "-workbench.action.closeWindow" // old
     },
+    {
+        "key": "shift+cmd+'",
+        "command": "workbench.action.closePanel"
+    },
     ]
