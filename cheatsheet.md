@@ -184,3 +184,19 @@ u+x, go=rx
 
 **su vs sudo**
 In some distributions, most notably Ubuntu, an alternate method is used. Rather than using su, these systems employ the sudo command instead. With sudo, one or more users are granted superuser privileges on an as needed basis (rather than changing into a mode). su is short for *substitute user*
+
+
+# ************** VSCODE **************
+in case I forget while still learning:
+https://stackoverflow.com/questions/35157786/vscode-open-file-from-file-explorer-with-enter-key-on-mac-osx
+solution is **cmd+down**
+
+**keybindings**
+
+* how to select next appearance of word **cmd+d**
+* kill line **cmd+k** different than **cmd+x** that will cut
+* duplicates cursor **shift+control+up**
+* will just copy line **cmd+c**
+* select all ocurrences of a word **command+^+g**
+* move cursor to next word for selected word **command+k+command+d**
+* undo last cursor action **command+u**
