@@ -64,20 +64,30 @@
         "key": "shift+cmd+w",
         "command": "-workbench.action.closeWindow" // old
     },
+    // ************************ panel stuff ************************
     {
         "key": "shift+cmd+'",
         "command": "workbench.action.togglePanel"
     },
     {
-        "key": "cmd+j",
-        "command": "-workbench.action.togglePanel"
+        "key": "alt+cmd+left",
+        "command": "workbench.action.previousPanelView",
+        "when": "panelFocus"
     },
-    // ************************ panel stuff ************************
-    // {
-    //     "key": "shift+cmd+'",
-    //     "command": "workbench.action.closePanel"
+    {
+        "key": "alt+cmd+right",
+        "command": "workbench.action.nextPanelView",
+        "when": "panelFocus"
+    },
+    // ********************** macros **********************
     {
         "key": "alt+w",
         "command": "macros.collapseAndClose",
-    }// },
-    ]
+    },
+    // *********** re-define keybindings so they take precedence ***********
+    {
+        "key": "cmd+k",
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus"
+    },
+]
