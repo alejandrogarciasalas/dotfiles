@@ -1,5 +1,6 @@
 [core]
     editor = "vim"
+    # config option from here: http://vanwilson.info/2016/05/wrangling-wandering-whitespace-git/
     whitespace = tab-in-indent # I prefer spaces over tabs so this will highlight any tab indents
 [pager]
     # TODO: figure out what -rfx does, copy pasted from https://remysharp.com/2018/08/23/cli-improved
