@@ -76,5 +76,8 @@
     // {
     //     "key": "shift+cmd+'",
     //     "command": "workbench.action.closePanel"
-    // },
+    {
+        "key": "alt+w",
+        "command": "macros.collapseAndClose",
+    }// },
     ]
