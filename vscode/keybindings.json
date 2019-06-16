@@ -74,6 +74,10 @@
         "command": "-workbench.action.togglePanel" // old
     },
     {
+        "key": "shift+cmd+9",
+        "command": "workbench.action.focusPanel"
+    },
+    {
         "key": "alt+cmd+left",
         "command": "workbench.action.previousPanelView",
         "when": "panelFocus"
@@ -92,10 +96,6 @@
         "key": "alt+cmd+down",
         "command": "workbench.action.togglePanelPosition",
         "when": "panelFocus"
-    },
-    {
-        "key": "shift+cmd+9",
-        "command": "workbench.action.focusPanel"
     },
     // ********************** macros **********************
     {
