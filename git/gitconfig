@@ -38,3 +38,5 @@
     newHighlight = green bold 22
 [diff-so-fancy]
     stripLeadingSymbols = false
+[include]
+        path = ~/.gitconfig_local # allow for overrides by gitconfig_local
