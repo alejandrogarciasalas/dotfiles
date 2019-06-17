@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# NOTE this is MacOS Only for now because it has brew as a dependency
 
 # Inspiration and Reference:
 # https://medium.com/@henriquebastos/the-definitive-guide-to-setup-my-python-workspace-628d68552e14

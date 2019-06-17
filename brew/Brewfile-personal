@@ -1,0 +1,8 @@
+# personal computer
+cask "adobe-creative-cloud" # just downloads installer
+cask "dropbox"
+cask "fantastical"
+cask "kindle"
+cask "skype"
+mas "Bear", id: 1091189122
+# mas "Fantastical 2", id: 975937182 # TODO: didn't purchase from the appstore

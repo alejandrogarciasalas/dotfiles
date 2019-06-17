@@ -30,19 +30,14 @@ brew "getantibody/tap/antibody"
 cask "font-dejavusansmono-nerd-font"
 
 # Apps
-cask "adobe-creative-cloud" # just downloads installer
 cask "bartender"
-cask "dropbox"
-cask "fantastical"
 cask "figma"
 cask "firefox"
 cask "google-chrome"
 cask "imageoptim"
 cask "iterm2"
-cask "kindle"
 cask "notion"
 cask "sketch"
-cask "skype"
 cask "spotify"
 cask "spectacle"
 cask "sublime-text"
@@ -53,8 +48,6 @@ cask "vlc"
 
 # AppStore Apps
 mas "1Password 7", id: 1333542190
-mas "Bear", id: 1091189122
-# mas "Fantastical 2", id: 975937182 # TODO: didn't purchase from the appstore
 mas "Slack", id: 803453959
 mas "Spark", id: 1176895641
 mas "Todoist", id: 585829637
