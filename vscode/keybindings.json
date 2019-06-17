@@ -117,4 +117,13 @@
         "key": "ctrl+alt+g",
         "command": "workbench.view.extension.gitlens"
     },
+    // ********************** emmets **********************
+    {
+        "key": "ctrl+w",
+        "command": "editor.emmet.action.wrapIndividualLinesWithAbbreviation"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.switchWindow"
+    }
 ]
