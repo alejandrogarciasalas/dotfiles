@@ -10,17 +10,6 @@
 # TODO: add anything else here?
 - clean: ["~"]
 
-# TODO: figure out best practices on using sh vs source.
-# source executes the script on the same shell and sh will create a fork.
-- shell:
-  # TODO: check for osx and ubuntu cross compatibility
-  - [sh zsh/install.sh, changing the default shell to zsh]
-  - [sh vscode/import-extensions.sh, importing VSCode Extensions]
-  #   # `source` executes script on same shell rather thank forking
-  - [source node/install.sh, setting up nvm and downloading node]
-  - [source ruby/install.sh, setting up rvm and downloading ruby]
-  - [source python/install.sh, setting up pyenv, virtualenv and downloading Python]
-
 - link:
     ~/.dotfiles: ''
     # Curl
@@ -39,3 +28,14 @@
     # TODO: these paths are MacOS only
     ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
     ~/Library/Application Support/Code/User/keybindings.json: vscode/keybindings.json
+
+    # TODO: figure out best practices on using sh vs source.
+# source executes the script on the same shell and sh will create a fork.
+- shell:
+  # TODO: check for osx and ubuntu cross compatibility
+  - [sh zsh/install.sh, changing the default shell to zsh]
+  - [sh vscode/import-extensions.sh, importing VSCode Extensions]
+  #   # `source` executes script on same shell rather thank forking
+  - [source node/install.sh, setting up nvm and downloading node]
+  - [source ruby/install.sh, setting up rvm and downloading ruby]
+  - [source python/install.sh, setting up pyenv, virtualenv and downloading Python]
