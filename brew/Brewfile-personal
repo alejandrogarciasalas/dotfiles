@@ -2,6 +2,7 @@
 cask "adobe-creative-cloud" # just downloads installer
 cask "dropbox"
 cask "fantastical"
+cask "notion"
 cask "kindle"
 cask "skype"
 mas "Bear", id: 1091189122
