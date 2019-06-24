@@ -12,7 +12,7 @@
     diff = diff-so-fancy | less --tabs=1,5 -RFX --pattern '^(Date|added|deleted|modified): '
     show = diff-so-fancy | less --tabs=1,5 -RFX --pattern '^(Date|added|deleted|modified): '
 [user]
-    name = alejandrogarciasalas
+    name = "Alejandro Garcia Salas"
     email = garciasalasalejandro@gmail.com
 [github]
     user = alejandrogarciasalas
