@@ -2,6 +2,8 @@
     editor = "vim"
     # config option from here: http://vanwilson.info/2016/05/wrangling-wandering-whitespace-git/
     whitespace = tab-in-indent # I prefer spaces over tabs so this will highlight any tab indents
+    precomposeunicode = true
+    sparseCheckout = true # TODO read more about this
 [pager]
     # TODO: figure out what -rfx does, copy pasted from https://remysharp.com/2018/08/23/cli-improved
     # this is what the diff-so-fancy docs advice as well https://github.com/so-fancy/diff-so-fancy
@@ -39,4 +41,8 @@
 [diff-so-fancy]
     stripLeadingSymbols = false
 [include]
-        path = ~/.gitconfig_local # allow for overrides by gitconfig_local
+    path = ~/.gitconfig_local # allow for overrides by gitconfig_local
+[push]
+    default = current # TODO read more about this
+[rerere]
+    enabled = true # TODO read more about this

@@ -28,16 +28,16 @@ source ~/.dotfiles/zsh/alias.sh
 eval $(thefuck --alias)
 
 # Add RVM to PATH for scripting.
-export PATH="$PATH:$HOME/.rvm/bin"
+# export PATH="$PATH:$HOME/.rvm/bin"
 
 # auto-activate pyenv and pyenv-virtualenv
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+# eval "$(pyenv init -)"
+# eval "$(pyenv virtualenv-init -)"
 
 # paths for virtualenvwrapper
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/code
-pyenv virtualenvwrapper_lazy
+# export WORKON_HOME=$HOME/.virtualenvs
+# export PROJECT_HOME=$HOME/code
+# pyenv virtualenvwrapper_lazy
 
 # this typically gets added to by the fzf install script along with the .fzf.zsh file
 # I am adding it here manually to have more control
