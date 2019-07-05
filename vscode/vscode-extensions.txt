@@ -9,12 +9,15 @@ DavidAnson.vscode-markdownlint
 dbaeumer.jshint
 dbaeumer.vscode-eslint
 dbankier.vscode-quick-select
+drKnoxy.eslint-disable-snippets
 eamodio.gitlens
 EditorConfig.EditorConfig
+esbenp.prettier-vscode
 formulahendry.auto-rename-tag
 geddski.macros
 GitHub.vscode-pull-request-github
 HookyQR.beautify
+IBM.output-colorizer
 kaiwood.better-line-select
 kisstkondoros.vscode-gutter-preview
 lihui.vs-color-picker
