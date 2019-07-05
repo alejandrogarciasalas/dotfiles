@@ -36,6 +36,7 @@
       "workbench.action.closeAllEditors",
     ]
   },
+  "git.autofetch": true,
   "gitlens.views.repositories.location": "scm",
   "gitlens.views.fileHistory.location": "explorer",
   "gitlens.views.lineHistory.location": "explorer",
