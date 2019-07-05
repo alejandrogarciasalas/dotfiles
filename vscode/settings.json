@@ -16,7 +16,7 @@
   "files.trimTrailingWhitespace": true,
   "search.location": "panel",
   "window.zoomLevel": 0,
-  "workbench.activityBar.visible": true,
+  "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Night Owl (No Italics)",
   "workbench.editor.enablePreview": true,
   "workbench.panel.defaultLocation": "right",
@@ -67,6 +67,13 @@
   },
   // ************ formatting ************
   "editor.formatOnSave": true,
-  "editor.formatOnPaste": true
-
+  "editor.formatOnPaste": true,
+  // ************ JavaScript ************
+  "[javascript]": {
+    "editor.formatOnSave": true // True for prettier.
+  },
+  "npm.enableScriptExplorer": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "prettier.eslintIntegration": true,
 }
