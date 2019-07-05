@@ -22,8 +22,11 @@ kaiwood.better-line-select
 kisstkondoros.vscode-gutter-preview
 lihui.vs-color-picker
 mkaufman.HTMLHint
+mrmlnc.vscode-json5
 ms-python.python
 ms-vscode.sublime-keybindings
+ms-vscode.vscode-typescript-tslint-plugin
+msjsdiag.debugger-for-chrome
 naumovs.color-highlight
 oderwat.indent-rainbow
 patbenatar.advanced-new-file
@@ -40,5 +43,6 @@ vincaslt.highlight-matching-tag
 vscode-icons-team.vscode-icons
 vscodevim.vim
 wayou.vscode-todo-highlight
+wmaurer.change-case
 yzhang.markdown-all-in-one
 Zignd.html-css-class-completion

@@ -3,6 +3,7 @@
 TODO:
 * setup PGP key for git
 * less with syntax highlighting?
+* use kdiff for merging tools git
 
 drew some inspiration from:
 * https://github.com/iraquitan/iraquitan-dotfiles
