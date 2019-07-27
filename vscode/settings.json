@@ -77,4 +77,5 @@
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
   "prettier.eslintIntegration": true,
+  // "editor.insertSpaces": false,
 }
