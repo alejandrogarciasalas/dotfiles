@@ -17,7 +17,6 @@
   "search.location": "panel",
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Night Owl (No Italics)",
   "workbench.editor.enablePreview": true,
   "workbench.panel.defaultLocation": "right",
   "workbench.sideBar.location": "left",
@@ -77,5 +76,6 @@
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
   "prettier.eslintIntegration": true,
+  "workbench.colorTheme": "Night Owl (No Italics)",
   // "editor.insertSpaces": false,
 }
