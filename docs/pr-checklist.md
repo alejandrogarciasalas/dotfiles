@@ -8,6 +8,7 @@
 * did you test it's behavior manually
 * non-determinstic test
 * deploy stuff
+* can impure functions made pure by modularizing the code
 
 ## Is your PR description good?
 Most repos will have some form of
@@ -21,6 +22,7 @@ Stress Test
 * *Bundle Size / *Performance**
 * *Tests*
 * *Reusability*
+* would this work well on other languages? RTL
 
 ## Silly things
 * extra divs
