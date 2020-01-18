@@ -1,5 +1,6 @@
 # personal computer
 cask "adobe-creative-cloud" # just downloads installer
+cask "deluge" # bitTorrent Client
 cask "dropbox"
 cask "fantastical"
 cask "notion"

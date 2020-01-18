@@ -10,6 +10,7 @@ dbaeumer.jshint
 dbaeumer.vscode-eslint
 dbankier.vscode-quick-select
 drKnoxy.eslint-disable-snippets
+dsznajder.es7-react-js-snippets
 eamodio.gitlens
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
