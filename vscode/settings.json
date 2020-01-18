@@ -2,8 +2,8 @@
   "bracketPairColorizer.showBracketsInGutter": true,
   "cSpell.language": "en",
   "editor.fontFamily": "DejaVuSansMono Nerd Font",
-  "editor.fontSize": 14,
-  "terminal.integrated.fontSize": 14,
+  "editor.fontSize": 12,
+  "terminal.integrated.fontSize": 12,
   "editor.renderWhitespace": "all",
   "editor.scrollBeyondLastLine": false,
   "editor.tabSize": 2,
@@ -16,9 +16,10 @@
   "files.trimTrailingWhitespace": true,
   "search.location": "panel",
   "window.zoomLevel": 0,
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "workbench.colorTheme": "Night Owl (No Italics)",
-  "workbench.editor.enablePreview": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.panel.defaultLocation": "right",
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "newUntitledFile",
@@ -33,7 +34,7 @@
   "macros": {
     "collapseAndClose": [
       "workbench.files.action.collapseExplorerFolders",
-      "workbench.action.closeAllEditors",
+      "workbench.action.closeAllEditors"
     ]
   },
   "git.autofetch": true,
@@ -74,7 +75,13 @@
     "editor.formatOnSave": true // True for prettier.
   },
   "npm.enableScriptExplorer": true,
-  "eslint.autoFixOnSave": true,
+  // "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
-  "prettier.eslintIntegration": true,
+  // ************ Work Settings ************
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true
+  // },
 }

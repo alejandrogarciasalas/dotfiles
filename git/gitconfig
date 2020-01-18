@@ -4,6 +4,9 @@
     whitespace = tab-in-indent # I prefer spaces over tabs so this will highlight any tab indents
 	precomposeunicode = true
 	sparseCheckout = true
+    fsmonitor = .git/hooks/fsmonitor-watchman.sample # replaces default fsmonitor hook, make sure to `brew install watchman`
+  excludesfile = ~/.dotfiles/git/.gitignore_global
+    untrackedCache = true
 [pager]
     # TODO: figure out what -rfx does, copy pasted from https://remysharp.com/2018/08/23/cli-improved
     # this is what the diff-so-fancy docs advice as well https://github.com/so-fancy/diff-so-fancy
@@ -46,3 +49,8 @@
 	default = current
 [rerere]
 	enabled = true
+[protocol]
+    version = 2 # Added in Git 2.18.0.
+[diff]
+  # it looks like histogram is a faster diffing algorithm (?)
+  algorithm = histogram
