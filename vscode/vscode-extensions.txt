@@ -1,6 +1,8 @@
 alefragnani.Bookmarks
 alefragnani.project-manager
+alexdima.copy-relative-path
 bierner.lit-html
+cduruk.thrift
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 codezombiech.gitignore
@@ -10,8 +12,8 @@ dbaeumer.jshint
 dbaeumer.vscode-eslint
 dbankier.vscode-quick-select
 drKnoxy.eslint-disable-snippets
-dsznajder.es7-react-js-snippets
 eamodio.gitlens
+eamodio.restore-editors
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
 formulahendry.auto-rename-tag
@@ -21,6 +23,7 @@ HookyQR.beautify
 IBM.output-colorizer
 kaiwood.better-line-select
 kisstkondoros.vscode-gutter-preview
+kumar-harsh.graphql-for-vscode
 lihui.vs-color-picker
 mkaufman.HTMLHint
 mrmlnc.vscode-json5
@@ -31,12 +34,15 @@ msjsdiag.debugger-for-chrome
 naumovs.color-highlight
 oderwat.indent-rainbow
 patbenatar.advanced-new-file
+Prisma.vscode-graphql
 robinbentley.sass-indented
 sdras.night-owl
 shardulm94.trailing-spaces
 sidneys1.gitconfig
 SirTori.indenticator
 sleistner.vscode-fileutils
+sourcegraph.sourcegraph
+steoates.autoimport
 streetsidesoftware.code-spell-checker
 techer.open-in-browser
 tomoki1207.pdf
@@ -44,6 +50,7 @@ vincaslt.highlight-matching-tag
 vscode-icons-team.vscode-icons
 vscodevim.vim
 wayou.vscode-todo-highlight
+wix.glean
 wmaurer.change-case
 yzhang.markdown-all-in-one
 Zignd.html-css-class-completion
