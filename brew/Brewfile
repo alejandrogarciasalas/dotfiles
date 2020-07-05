@@ -34,6 +34,7 @@ cask "font-dejavusansmono-nerd-font"
 
 # Apps
 cask "bartender"
+cask "docker"
 cask "figma"
 cask "firefox"
 cask "google-chrome"

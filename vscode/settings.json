@@ -14,7 +14,6 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "search.location": "panel",
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": true,
   "workbench.colorTheme": "Night Owl (No Italics)",
@@ -80,7 +79,8 @@
   // ************ Work Settings ************
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "cSpell.userWords": ["doublevalue"]
   // "editor.codeActionsOnSave": {
   //   "source.fixAll.eslint": true
   // },
