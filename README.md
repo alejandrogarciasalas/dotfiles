@@ -1,5 +1,7 @@
 # Alejandro Garcia Salas' .dotfiles
 
+clone and run `./install` from dotfiles directory
+
 TODO:
 * setup PGP key for git
 * less with syntax highlighting?
