@@ -42,7 +42,7 @@ cask "imageoptim"
 cask "insomnia"
 cask "iterm2"
 cask "postman"
-cask "sketch"
+# cask "sketch"
 cask "spotify"
 cask "spectacle"
 cask "sublime-text"
@@ -54,8 +54,8 @@ cask "vlc"
 # AppStore Apps
 mas "1Password 7", id: 1333542190
 mas "Slack", id: 803453959
-mas "Spark", id: 1176895641
-mas "Todoist", id: 585829637
-mas "ToothFairy", id: 1191449274
+# mas "Spark", id: 1176895641
+# mas "Todoist", id: 585829637
+# mas "ToothFairy", id: 1191449274
 mas "The Unarchiver", id: 425424353
 mas "Xcode", id: 497799835
