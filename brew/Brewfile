@@ -27,9 +27,14 @@ brew "thefuck"
 brew "tldr"
 brew "zsh"
 
+
 brew "getantibody/tap/antibody"
 
 tap 'homebrew/cask-fonts'
+
+# JS development
+# brew "nvm"
+brew "yarn"
 
 # Fonts
 # https://github.com/Homebrew/homebrew-cask-fonts/blob/master/Casks/font-dejavusansmono-nerd-font.rb
