@@ -35,7 +35,6 @@ msjsdiag.debugger-for-chrome
 naumovs.color-highlight
 oderwat.indent-rainbow
 patbenatar.advanced-new-file
-robinbentley.sass-indented
 sdras.night-owl
 shardulm94.trailing-spaces
 sidneys1.gitconfig
