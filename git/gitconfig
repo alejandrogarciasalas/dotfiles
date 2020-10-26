@@ -8,7 +8,6 @@
     # fsmonitor = .git/hooks/fsmonitor-watchman.sample # replaces default fsmonitor hook, make sure to `brew install watchman`
   excludesfile = ~/.dotfiles/git/.gitignore_global
     untrackedCache = true
-	sparseCheckout = true
 [pager]
     # TODO: figure out what -rfx does, copy pasted from https://remysharp.com/2018/08/23/cli-improved
     # this is what the diff-so-fancy docs advice as well https://github.com/so-fancy/diff-so-fancy

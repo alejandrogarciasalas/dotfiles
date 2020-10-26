@@ -80,7 +80,8 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.userWords": ["doublevalue"]
+  "cSpell.userWords": ["doublevalue"],
+  "cSpell.enabled": false
   // "editor.codeActionsOnSave": {
   //   "source.fixAll.eslint": true
   // },
