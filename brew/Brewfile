@@ -12,6 +12,7 @@ brew "watchman"
 
 # Binaries
 brew "bat"
+brew "diff-so-fancy"
 brew "exa"
 brew "hub"
 brew "htop"
