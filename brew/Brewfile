@@ -44,6 +44,7 @@ cask "imageoptim"
 cask "insomnia"
 cask "iterm2"
 cask "postman"
+cask "slack"
 # cask "sketch"
 cask "spotify"
 cask "spectacle"
@@ -54,8 +55,8 @@ cask "vlc"
 # TODO: check mackup https://github.com/lra/mackup
 
 # AppStore Apps
-mas "1Password 7", id: 1333542190
-mas "Slack", id: 803453959
+# mas "1Password 7", id: 1333542190
+# mas "Slack", id: 803453959 # prefer brew cask formula since it doesn't require appstore login
 # mas "Spark", id: 1176895641
 # mas "Todoist", id: 585829637
 # mas "ToothFairy", id: 1191449274
