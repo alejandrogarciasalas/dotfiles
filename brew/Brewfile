@@ -1,5 +1,3 @@
-tap 'caskroom/fonts'
-
 # GNU coreutils #https://apple.stackexchange.com/questions/69223/how-to-replace-mac-os-x-utilities-with-gnu-core-utilities
 brew "coreutils"
 brew "findutils"
@@ -26,7 +24,11 @@ brew "tig"
 brew "thefuck"
 brew "tldr"
 brew "zsh"
+
+tap "getantibody tap"
 brew "getantibody/tap/antibody"
+
+tap 'caskroom/fonts'
 
 # Fonts
 # https://github.com/Homebrew/homebrew-cask-fonts/blob/master/Casks/font-dejavusansmono-nerd-font.rb
