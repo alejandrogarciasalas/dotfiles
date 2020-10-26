@@ -8,7 +8,6 @@ christian-kohler.path-intellisense
 codezombiech.gitignore
 CoenraadS.bracket-pair-colorizer-2
 DavidAnson.vscode-markdownlint
-dbaeumer.jshint
 dbaeumer.vscode-eslint
 dbankier.vscode-quick-select
 drKnoxy.eslint-disable-snippets
