@@ -12,3 +12,7 @@ drew some inspiration from:
 * https://github.com/nikitavoloboev/dotfiles/
 * https://github.com/mathiasbynens/dotfiles/
 * https://remysharp.com/2018/08/23/cli-improved
+
+## Troubleshooting
+If: zsh compinit: error run for a quick fix
+`compaudit | xargs chmod g-w`
