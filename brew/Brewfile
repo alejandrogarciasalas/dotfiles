@@ -31,7 +31,7 @@ tap 'homebrew/cask-fonts'
 
 # Fonts
 # https://github.com/Homebrew/homebrew-cask-fonts/blob/master/Casks/font-dejavusansmono-nerd-font.rb
-cask "font-dejavusansmono-nerd-font"
+cask "font-dejavu-sans-mono-nerd-font"
 
 # Apps
 cask "bartender"
