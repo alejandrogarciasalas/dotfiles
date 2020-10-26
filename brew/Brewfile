@@ -44,12 +44,13 @@ cask "insomnia"
 cask "iterm2"
 cask "postman"
 cask "slack"
-# cask "sketch"
-cask "spotify"
 cask "spectacle"
+cask "spotify"
 cask "sublime-text"
+cask "the-unarchiver"
 cask "visual-studio-code"
 cask "vlc"
+# cask "sketch"
 # TODO: add alfred
 # TODO: check mackup https://github.com/lra/mackup
 
