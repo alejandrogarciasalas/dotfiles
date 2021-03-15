@@ -22,11 +22,16 @@ brew "git"
 brew "git-lfs"
 brew "mas"
 brew "m-cli"
+brew "ngrok" # for hackathons and experiments
 brew "tig"
 brew "thefuck"
 brew "tldr"
 brew "zsh"
 brew "getantibody/tap/antibody"
+
+# development
+brew "yarn"
+brew "postgresql"
 
 # Fonts
 # https://github.com/Homebrew/homebrew-cask-fonts/blob/master/Casks/font-dejavusansmono-nerd-font.rb
