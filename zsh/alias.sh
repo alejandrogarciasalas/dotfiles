@@ -1,7 +1,7 @@
 alias ls="exa"
 alias ll="exa -lh"
 alias la="exa -lhaa"
-alias cat="bat"
+# alias cat="bat"
 alias top="htop"
 alias ping="prettyping --nolegend"
 alias grep="rg" # ripgrep

@@ -15,19 +15,23 @@ brew "bat"
 brew "diff-so-fancy"
 brew "exa"
 brew "fzf"
-brew "hub"
+# brew "hub" # meh
+brew "gh"
 brew "htop"
 brew "imagemagick"
 brew "git"
 brew "git-lfs"
+brew "grex" # grep regex
 brew "mas"
 brew "m-cli"
-brew "ngrok" # for hackathons and experiments
 brew "tig"
 brew "thefuck"
 brew "tldr"
 brew "zsh"
 
+ # for hackathons and experiments
+brew "http-server"
+brew "ngrok"
 
 brew "getantibody/tap/antibody"
 
@@ -39,7 +43,7 @@ tap 'homebrew/cask-fonts'
 
 # JS development
 # brew "nvm"
-brew "yarn"
+# brew "yarn"
 
 # Fonts
 # https://github.com/Homebrew/homebrew-cask-fonts/blob/master/Casks/font-dejavusansmono-nerd-font.rb

@@ -615,7 +615,7 @@
 
   # Show the commit's keyword-marked lines.
   #
-  # Show each line in the commit message that starts with zero or more blanks, 
+  # Show each line in the commit message that starts with zero or more blanks,
   # then a keyword (alphanum and dash characters), then a colon.
   #
   # Example commit:
@@ -647,7 +647,7 @@
   #   * Omit leading blanks
   #
   #   * After the colon, use one space (not tab, not multiple spaces, etc.)
-  #    
+  #
   # Known issues:
   #
   #   * TODO: improve the keyword matcher so it requires the keyword to end
@@ -1319,6 +1319,5 @@
   ##
 
   ### Use with shell alias `gitp = git` ###
-
-  ull = pull
-  ush = push
+  # ull = pull # meh
+  # ush = push
