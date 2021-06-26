@@ -50,3 +50,8 @@ eval $(thefuck --alias)
 if [ -f ~/.zshrc_local_after ]; then
     source ~/.zshrc_local_after
 fi
+
+
+#### FIG ENV VARIABLES ####
+# [ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
+#### END FIG ENV VARIABLES ####

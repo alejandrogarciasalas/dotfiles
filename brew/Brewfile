@@ -29,15 +29,17 @@ brew "thefuck"
 brew "tldr"
 brew "zsh"
 
- # for hackathons and experiments
+# for hackathons and experiments
 brew "http-server"
 brew "ngrok"
 
 brew "getantibody/tap/antibody"
 
+tap "homebrew/services" # https://thoughtbot.com/blog/starting-and-stopping-background-services-with-homebrew
 # development
 brew "yarn"
 brew "postgresql"
+brew "redis"
 
 tap 'homebrew/cask-fonts'
 
