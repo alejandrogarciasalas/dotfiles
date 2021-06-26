@@ -6,6 +6,7 @@ brew "gnu-getopt"
 brew "gnu-sed"
 brew "gnutls"
 brew "grep"
+brew "ripgrep"
 brew "gnu-tar"
 brew "gawk"
 brew "watchman"
@@ -14,6 +15,7 @@ brew "watchman"
 brew "bat"
 brew "diff-so-fancy"
 brew "exa"
+brew "rsync"
 brew "fzf"
 brew "hub"
 brew "htop"
@@ -27,13 +29,15 @@ brew "thefuck"
 brew "tldr"
 brew "zsh"
 
+# brew "postgresql"
+# brew "redis"
 
 brew "getantibody/tap/antibody"
 
 tap 'homebrew/cask-fonts'
 
 # JS development
-# brew "nvm"
+# brew "nvm" # installed by zsh plugin
 brew "yarn"
 
 # Fonts

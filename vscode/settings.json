@@ -14,7 +14,6 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "window.zoomLevel": 0,
   "workbench.activityBar.visible": true,
   "workbench.colorTheme": "Night Owl (No Italics)",
   "workbench.editor.enablePreview": false,
@@ -81,7 +80,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "cSpell.userWords": ["doublevalue"],
-  "cSpell.enabled": false
+  "cSpell.enabled": false,
+  "editor.accessibilitySupport": "off"
   // "editor.codeActionsOnSave": {
   //   "source.fixAll.eslint": true
   // },
