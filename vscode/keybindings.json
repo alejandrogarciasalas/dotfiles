@@ -120,7 +120,7 @@
     // ********************** emmets **********************
     {
         "key": "ctrl+w",
-        "command": "editor.emmet.action.wrapIndividualLinesWithAbbreviation"
+        "command": "editor.emmet.action.wrapWithAbbreviation"
     },
     {
         "key": "ctrl+w",

@@ -17,11 +17,13 @@ brew "diff-so-fancy"
 brew "exa"
 brew "rsync"
 brew "fzf"
-brew "hub"
+# brew "hub" # meh
+brew "gh"
 brew "htop"
 brew "imagemagick"
 brew "git"
 brew "git-lfs"
+brew "grex" # grep regex
 brew "mas"
 brew "m-cli"
 brew "tig"
@@ -29,10 +31,21 @@ brew "thefuck"
 brew "tldr"
 brew "zsh"
 
-# brew "postgresql"
-# brew "redis"
+# DBs
+brew "postgresql"
+brew "redis"
+
+# for hackathons and experiments
+brew "http-server"
+brew "ngrok"
 
 brew "getantibody/tap/antibody"
+
+tap "homebrew/services" # https://thoughtbot.com/blog/starting-and-stopping-background-services-with-homebrew
+# development
+brew "yarn"
+brew "postgresql"
+brew "redis"
 
 tap 'homebrew/cask-fonts'
 
