@@ -2,9 +2,9 @@
 cask "adobe-creative-cloud" # just downloads installer
 cask "deluge" # bitTorrent Client
 cask "dropbox"
-cask "fantastical"
+# cask "fantastical"
 cask "notion"
 cask "kindle"
-cask "skype"
+# cask "skype"
 mas "Bear", id: 1091189122
 # mas "Fantastical 2", id: 975937182 # TODO: didn't purchase from the appstore
