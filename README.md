@@ -4,7 +4,7 @@
 1. clone this repo
 2. run brew install script `sh brew/install.sh`. Optional: install Brewfile Personal.
 3. run dotbot install script i.e.  `./install` from dotfiles directory to symlink files and run a few other install scripts
-4. finally macos install script
+4. finally run macos install script
 
 TODO:
 * setup PGP key for git
