@@ -14,6 +14,7 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "workbench.activityBar.visible": true,
   "workbench.colorTheme": "Night Owl (No Italics)",
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
@@ -88,12 +89,12 @@
     "editor.autoClosingBrackets": true
   },
   "[javascriptreact]": {
-    "editor.formatOnSave": true, // might be redundant
+    // "editor.formatOnSave": true, // might be redundant
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.autoClosingBrackets": true
   },
   "[typescript]": {
-    "editor.formatOnSave": true, // might be redundant
+    // "editor.formatOnSave": true, // might be redundant
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
@@ -103,14 +104,18 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.accessibilitySupport": "off",
-  // "editor.codeActionsOnSave": {
-  //   "source.fixAll.eslint": true
-  // },
+
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
     "plaintext": false,
     "markdown": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "search.excludeFolders": {
+    "**/__generated__/**": true,
   },
 }
