@@ -13,7 +13,6 @@ dbankier.vscode-quick-select
 drKnoxy.eslint-disable-snippets
 dsznajder.es7-react-js-snippets
 eamodio.gitlens
-eamodio.restore-editors
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
 formulahendry.auto-rename-tag
