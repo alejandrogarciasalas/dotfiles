@@ -47,7 +47,6 @@ NuclleaR.vscode-extension-auto-import
 oderwat.indent-rainbow
 patbenatar.advanced-new-file
 Prisma.prisma
-robinbentley.sass-indented
 sdras.night-owl
 shardulm94.trailing-spaces
 sidneys1.gitconfig
@@ -57,11 +56,14 @@ steoates.autoimport
 streetsidesoftware.code-spell-checker
 techer.open-in-browser
 tomoki1207.pdf
+ue.alphabetical-sorter
 vincaslt.highlight-matching-tag
 vscode-icons-team.vscode-icons
 vscodevim.vim
 wayou.vscode-todo-highlight
 withfig.fig
+wix.glean
 wmaurer.change-case
+xabikos.ReactSnippets
 yzhang.markdown-all-in-one
 Zignd.html-css-class-completion
