@@ -33,7 +33,7 @@ brew "zsh"
 
 # for hackathons and experiments
 brew "http-server"
-brew "ngrok"
+cask "ngrok"
 
 brew "getantibody/tap/antibody"
 
