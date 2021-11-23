@@ -58,7 +58,7 @@ brew "yarn"
 cask "font-dejavu-sans-mono-nerd-font"
 
 # Apps
-cask "bartender"
+# cask "bartender"
 cask "docker"
 cask "figma"
 cask "firefox"
