@@ -1,6 +1,10 @@
 # Alejandro Garcia Salas' .dotfiles
 
-clone, run brew install script, run dotbot install script i.e.  `./install` from dotfiles directory, and  finally macos install script
+0. setup github rsa
+1. clone
+2. run brew install script
+3. run dotbot install script i.e.  `./install` from dotfiles directory
+4. finally macos install script
 
 TODO:
 * setup PGP key for git
