@@ -3,6 +3,7 @@
 0. setup github key (see script on git folder)
 1. clone
 2. run brew install script `sh brew/install.sh`
+         . optional: install Brewfile Personal
 3. run dotbot install script i.e.  `./install` from dotfiles directory to symlink files and run a few other install scripts
 4. finally macos install script
 
