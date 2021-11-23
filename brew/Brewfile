@@ -31,10 +31,6 @@ brew "thefuck"
 brew "tldr"
 brew "zsh"
 
-# DBs
-brew "postgresql"
-brew "redis"
-
 # for hackathons and experiments
 brew "http-server"
 brew "ngrok"
