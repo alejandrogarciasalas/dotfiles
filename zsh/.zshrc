@@ -7,14 +7,7 @@ fi
 HISTSIZE=10000
 SAVEHIST=10000
 
-# https://getantibody.github.io/usage/
-# this is for dynamic loading which is slower
-source <(antibody init)
-antibody bundle < ~/.dotfiles/zsh/.zsh_plugins.txt
-# instead we use static loading (see docs for usage)
-# run this once to update plugins list
-# antibody bundle < ~/.dotfiles/zsh/.zsh_plugins.txt > ~/.dotfiles/zsh/.zsh_plugins.sh
-# source ~/.dotfiles/zsh/.zsh_plugins.sh
+source ~/.dotfiles/zsh/zsh_plugins.sh
 
 # NOTE: oh-my-zsh defaults here for reference: https://github.com/robbyrussell/oh-my-zsh/tree/master/lib
 source ~/.dotfiles/zsh/completion.zsh
