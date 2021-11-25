@@ -117,5 +117,5 @@
   "search.excludeFolders": {
     "**/__generated__/**": true,
   },
-  "workbench.colorTheme": "Night Owl (No Italics)",
+  "workbench.colorTheme": "Dracula",
 }
