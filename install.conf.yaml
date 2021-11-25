@@ -16,6 +16,7 @@
     ~/.curlrc: curl/.curlrc
     # Zsh
     ~/.zshrc: zsh/.zshrc
+    ~/.zprofile: zsh/.zprofile
     # Git
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
