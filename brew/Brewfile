@@ -55,6 +55,7 @@ cask "font-dejavu-sans-mono-nerd-font"
 
 # Apps
 # cask "bartender"
+cask "charles"
 cask "docker"
 # cask "figma"
 cask "firefox"

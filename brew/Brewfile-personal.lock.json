@@ -30,6 +30,54 @@
         "options": {
           "full_name": "kindle"
         }
+      },
+      "1password": {
+        "version": "7.9.1",
+        "options": {
+          "full_name": "1password"
+        }
+      },
+      "discord": {
+        "version": "0.0.264",
+        "options": {
+          "full_name": "discord"
+        }
+      },
+      "zoom": {
+        "version": "5.8.4.2421",
+        "options": {
+          "full_name": "zoom"
+        }
+      },
+      "steam": {
+        "version": "4.0",
+        "options": {
+          "full_name": "steam"
+        }
+      },
+      "skype": {
+        "version": "8.78.0.159",
+        "options": {
+          "full_name": "skype"
+        }
+      },
+      "microsoft-word": {
+        "version": "16.55.21111400",
+        "options": {
+          "full_name": "microsoft-word"
+        }
+      },
+      "microsoft-powerpoint": {
+        "version": "16.55.21111400",
+        "options": {
+          "full_name": "microsoft-powerpoint"
+        }
+      },
+      "microsoft-excel": {
+        "version": "16.55.21111400",
+        "options": {
+          "full_name": "microsoft-excel"
+        }
       }
     },
     "mas": {
@@ -44,7 +92,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.3.5",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "59e87ccfa73e3ad1f10d4fe0944a60a7a859f193",
+        "Homebrew/homebrew-core": "c334c367a6e4aa820fda8f56b153f630db7d22cb",
         "CLT": "13.1.0.0.1.1633545042",
         "Xcode": "13.1",
         "macOS": "12.0.1"
