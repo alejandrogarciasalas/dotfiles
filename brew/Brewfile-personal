@@ -1,4 +1,5 @@
 # personal computer
+cask "1password"
 cask "adobe-creative-cloud" # just downloads installer
 cask "deluge" # bitTorrent Client
 cask "dropbox"
