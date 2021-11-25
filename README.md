@@ -2,7 +2,9 @@
 
 0. setup github key (see script on git folder)
 1. clone this repo
-2. run brew install script `sh brew/install.sh`. Optional: install Brewfile Personal.
+2. run brew install script `sh brew/install.sh`.
+   1.  Optional: install Brewfile Personal.
+   2.  To install useful key bindings and fuzzy completion: `$(brew --prefix)/opt/fzf/install` https://github.com/junegunn/fzf#using-homebrew . There's an uninstall script on the same directory
 3. run dotbot install script i.e.  `./install` from dotfiles directory to symlink files and run a few other install scripts
 4. finally run macos install script
 5. import iterm config `sh iterm/install.sh`
