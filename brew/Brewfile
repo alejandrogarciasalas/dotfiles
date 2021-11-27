@@ -16,6 +16,7 @@ brew "bat"
 brew "diff-so-fancy"
 brew "exa"
 brew "rsync"
+brew "fd"
 brew "fzf"
 # brew "hub" # meh
 brew "gh"
@@ -26,17 +27,17 @@ brew "git-lfs"
 brew "grex" # grep regex
 brew "mas"
 brew "m-cli"
+brew "ripgrep"
 brew "tig"
 brew "thefuck"
 brew "tmux"
 brew "tldr"
 brew "zsh"
+brew "zoxide"
 
 # for hackathons and experiments
 brew "http-server"
 cask "ngrok"
-
-brew "getantibody/tap/antibody"
 
 tap "homebrew/services" # https://thoughtbot.com/blog/starting-and-stopping-background-services-with-homebrew
 # development

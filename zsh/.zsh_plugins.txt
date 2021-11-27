@@ -1,10 +1,8 @@
 docker/cli
 djui/alias-tips
-mafredri/zsh-async
-rupa/z
 lukechilds/zsh-nvm
+mafredri/zsh-async
 sindresorhus/pure
-Tarrasch/zsh-bd
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-completions
 zsh-users/zsh-history-substring-search

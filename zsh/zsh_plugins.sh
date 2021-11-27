@@ -2,7 +2,6 @@
 export ZPLUG_HOME=$(brew --prefix)/opt/zplug
 source $ZPLUG_HOME/init.zsh
 
-
 while read plugin; do
   zplug $plugin
 done < ~/.dotfiles/zsh/.zsh_plugins.txt
@@ -15,4 +14,5 @@ if ! zplug check --verbose; then
     fi
 fi
 
+# Then, source plugins and add commands to $PATH
 zplug load
