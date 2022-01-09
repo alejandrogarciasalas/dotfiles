@@ -24,7 +24,6 @@ kaiwood.better-line-select
 kisstkondoros.vscode-gutter-preview
 kumar-harsh.graphql-for-vscode
 lihui.vs-color-picker
-mkaufman.HTMLHint
 mrmlnc.vscode-json5
 ms-azuretools.vscode-docker
 ms-dotnettools.csharp
@@ -45,7 +44,6 @@ sidneys1.gitconfig
 SirTori.indenticator
 sleistner.vscode-fileutils
 slevesque.shader
-streetsidesoftware.code-spell-checker
 techer.open-in-browser
 tomoki1207.pdf
 ue.alphabetical-sorter
