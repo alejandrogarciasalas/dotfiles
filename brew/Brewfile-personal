@@ -16,3 +16,8 @@ mas "Bear", id: 1091189122
 cask "microsoft-word"
 cask "microsoft-powerpoint"
 cask "microsoft-excel"
+
+# unity
+# add unity
+cask "dotnet"
+cask "mono-mdk"
