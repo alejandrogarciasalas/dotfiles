@@ -15,7 +15,6 @@
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "workbench.activityBar.visible": true,
-  "workbench.colorTheme": "Night Owl (No Italics)",
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.panel.defaultLocation": "right",
@@ -118,4 +117,5 @@
   "search.excludeFolders": {
     "**/__generated__/**": true,
   },
+  "workbench.colorTheme": "Night Owl (No Italics)",
 }
