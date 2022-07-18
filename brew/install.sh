@@ -9,6 +9,8 @@ else
   brew update
 fi
 
+# you should link the binary at this point......
+
 brew tap homebrew/bundle  # Install Homebrew Bundle
 
 # TODO: figure out a cleaner way to setup this path relative to dotfiles or root directory
