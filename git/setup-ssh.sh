@@ -4,6 +4,8 @@ ssh-keygen -t rsa -b 4096 -C "garciasalasalejandro@gmail.com" -f $HOME/.ssh/gith
 eval "$(ssh-agent -s)"
 ssh-add -K ~/.ssh/github_rsa
 
+pbcopy < ~/.ssh/github_rsa.pub
+
 echo "Did you add the ssh key to your GitHub account?\n(https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)"
 select yn in "Yes" "No"; do
     case $yn in
