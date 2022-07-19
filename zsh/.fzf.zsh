@@ -10,4 +10,8 @@ fi
 
 # Key bindings
 # ------------
-source "/opt/homebrew/opt/fzf/shell/key-bindings.zsh"
+# Apple Silicon M1
+# source "/opt/homebrew/opt/fzf/shell/key-bindings.zsh"
+
+# Old intel stuff
+source "/usr/local/Cellar/fzf/0.29.0/shell/key-bindings.zsh"
