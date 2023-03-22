@@ -14,7 +14,6 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "workbench.activityBar.visible": true,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.panel.defaultLocation": "right",
@@ -73,8 +72,8 @@
   // ************ JavaScript ************
   "eslint.alwaysShowStatus": true,
   // "editor.codeActionsOnSave": {
-    // "source.fixAll.eslint": true,
-    // "source.organizeImports": true,
+  // "source.fixAll.eslint": true,
+  // "source.organizeImports": true,
   // },
   "eslint.validate": [
     "javascript",
@@ -112,10 +111,14 @@
     "markdown": true
   },
   "search.excludeFolders": {
-    "**/__generated__/**": true,
+    "**/__generated__/**": true
   },
   "workbench.colorTheme": "OM Theme (No Italic)",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vsicons.dontShowNewVersionMessage": true
 }
