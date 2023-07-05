@@ -31,6 +31,8 @@ eval "$(zoxide init zsh)"
 
 # source ~/.dotfiles/zsh/python.sh
 
+source ~/.dotfiles/zsh/chromium.sh
+
 # this typically gets added to by the fzf install script along with the .fzf.zsh file
 # I am adding it here manually to have more control (see README)
 [ -f ~/.dotfiles/zsh/.fzf.zsh ] && source ~/.dotfiles/zsh/.fzf.zsh
@@ -43,7 +45,7 @@ fi
 
 # TODO: figure out what to do about this bun stuff
 # bun completions
-[ -s "/Users/alejandro/.bun/_bun" ] && source "/Users/alejandro/.bun/_bun"
+# [ -s "/Users/alejandro/.bun/_bun" ] && source "/Users/alejandro/.bun/_bun"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"

@@ -18,6 +18,6 @@ cask "microsoft-powerpoint"
 cask "microsoft-excel"
 
 # unity
-# add unity
+cask "unity-hub"
 cask "dotnet"
 cask "mono-mdk"
