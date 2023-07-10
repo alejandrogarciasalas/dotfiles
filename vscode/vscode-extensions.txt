@@ -1,5 +1,4 @@
 alefragnani.Bookmarks
-alefragnani.project-manager
 alexdima.copy-relative-path
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
@@ -13,8 +12,11 @@ dsznajder.es7-react-js-snippets
 eamodio.gitlens
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
+figma.figma-vscode-extension
 formulahendry.auto-rename-tag
 GitHub.copilot
+GitHub.copilot-chat
+GitHub.copilot-labs
 GraphQL.vscode-graphql
 GraphQL.vscode-graphql-execution
 GraphQL.vscode-graphql-syntax
@@ -29,6 +31,11 @@ ms-dotnettools.csharp
 ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
+ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
+ms-toolsai.vscode-jupyter-cell-tags
+ms-toolsai.vscode-jupyter-slideshow
 ms-vscode.sublime-keybindings
 naumovs.color-highlight
 oderwat.indent-rainbow
