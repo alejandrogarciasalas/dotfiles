@@ -1,155 +1,207 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    // ************************ selecting with shift+alt+up ************************
-    // this is better as it emulates the default behavior on macOS when selecting text
-    {
-        "key": "shift+alt+down", // redundant since is the default behavior for the plugin but here for reference
-        "command": "better-line-select.downward"
-    },
-    {
-        "key": "shift+alt+up", // it didn't work by default with the plugin
-        "command": "better-line-select.upward"
-    },
-    {
-        "key": "shift+alt+down",
-        "command": "-editor.action.copyLinesDownAction", // old
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+alt+up",
-        "command": "-editor.action.copyLinesUpAction", // old
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    // ************************ copy with shift+up and shift+down (old behavior was with shift+alt+up and shift+alt+down ************************
-    // shift+up and shift+down seem like sensible replacements to the default vscode behavior
-    {
-        "key": "shift+down",
-        "command": "editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+up",
-        "command": "editor.action.copyLinesUpAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+up",
-        "command": "-cursorUpSelect", // old
-        "when": "textInputFocus"
-    },
-    {
-        "key": "shift+down",
-        "command": "-cursorDownSelect", // old
-        "when": "textInputFocus"
-    },
-    // instead of above two command we have these
-    {
-        "key": "shift+alt+up",
-        "command": "cursorUpSelect",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "shift+alt+down",
-        "command": "cursorDownSelect",
-        "when": "textInputFocus"
-    },
-    // ************************ close window with cmd+w ************************
-    // better as it emulates default macos behavior
-    {
-        "key": "cmd+w",
-        "command": "workbench.action.closeWindow",
-        "when": "!editorIsOpen && !multipleEditorGroups"
-    },
-    {
-        "key": "shift+cmd+w",
-        "command": "-workbench.action.closeWindow" // old
-    },
-    // ************************ panel stuff ************************
-    {
-        "key": "shift+cmd+'",
-        "command": "workbench.action.togglePanel"
-    },
-    {
-        "key": "cmd+j",
-        "command": "-workbench.action.togglePanel" // old
-    },
-    {
-        "key": "shift+cmd+9",
-        "command": "workbench.action.focusPanel"
-    },
-    {
-        "key": "alt+cmd+left",
-        "command": "workbench.action.previousPanelView",
-        "when": "panelFocus"
-    },
-    {
-        "key": "alt+cmd+right",
-        "command": "workbench.action.nextPanelView",
-        "when": "panelFocus"
-    },
-    {
-        "key": "alt+cmd+up",
-        "command": "workbench.action.toggleMaximizedPanel",
-        "when": "panelFocus"
-    },
-    {
-        "key": "alt+cmd+down",
-        "command": "workbench.action.togglePanelPosition",
-        "when": "panelFocus"
-    },
-    // ********************** macros **********************
-    {
-        "key": "cmd+k alt+w",
-        "command": "macros.collapseAndClose",
-    },
-    // *********** re-define keybindings so they take precedence ***********
-    {
-        "key": "cmd+k",
-        "command": "workbench.action.terminal.clear",
-        "when": "terminalFocus"
-    },
-    // ********************** Activity Bar **********************
-    {
-        "key": "cmd+h cmd+a",
-        "command": "workbench.action.toggleActivityBarVisibility"
-    },
-    {
-        "key": "ctrl+alt+g",
-        "command": "workbench.view.extension.gitlens"
-    },
-    // ********************** emmets **********************
-    {
-        "key": "ctrl+w",
-        "command": "editor.emmet.action.wrapWithAbbreviation"
-    },
-    {
-        "key": "ctrl+w",
-        "command": "-workbench.action.switchWindow"
-    },
-    // ********************** terminal stuff **********************
-    {
-        "key": "cmd+d",
-        "command": "workbench.action.terminal.split",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "ctrl+shift+5",
-        "command": "-workbench.action.terminal.split",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "cmd+w",
-        "command": "workbench.action.terminal.kill",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "tab -",
-        "command": "editor.emmet.action.expandAbbreviation",
-        "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
-    },
-    {
-        "key": "tab",
-        "command": "-editor.emmet.action.expandAbbreviation",
-        "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
-    }
+  // ************************ selecting with shift+alt+up ************************
+  // this is better as it emulates the default behavior on macOS when selecting text
+  {
+    "key": "shift+alt+down", // redundant since is the default behavior for the plugin but here for reference
+    "command": "better-line-select.downward"
+  },
+  {
+    "key": "shift+alt+up", // it didn't work by default with the plugin
+    "command": "better-line-select.upward"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction", // old
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "-editor.action.copyLinesUpAction", // old
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  // ************************ copy with shift+up and shift+down (old behavior was with shift+alt+up and shift+alt+down ************************
+  // shift+up and shift+down seem like sensible replacements to the default vscode behavior
+  {
+    "key": "shift+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+up",
+    "command": "-cursorUpSelect", // old
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+down",
+    "command": "-cursorDownSelect", // old
+    "when": "textInputFocus"
+  },
+  // instead of above two command we have these
+  {
+    "key": "shift+alt+up",
+    "command": "cursorUpSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "cursorDownSelect",
+    "when": "textInputFocus"
+  },
+  // ************************ close window with cmd+w ************************
+  // better as it emulates default macos behavior
+  {
+    "key": "cmd+w",
+    "command": "workbench.action.closeWindow",
+    "when": "!editorIsOpen && !multipleEditorGroups"
+  },
+  {
+    "key": "shift+cmd+w",
+    "command": "-workbench.action.closeWindow" // old
+  },
+  // ************************ panel stuff ************************
+  {
+    "key": "shift+cmd+'",
+    "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "cmd+j",
+    "command": "-workbench.action.togglePanel" // old
+  },
+  {
+    "key": "shift+cmd+9",
+    "command": "workbench.action.focusPanel"
+  },
+  {
+    "key": "alt+cmd+left",
+    "command": "workbench.action.previousPanelView",
+    "when": "panelFocus"
+  },
+  {
+    "key": "alt+cmd+right",
+    "command": "workbench.action.nextPanelView",
+    "when": "panelFocus"
+  },
+  {
+    "key": "alt+cmd+up",
+    "command": "workbench.action.toggleMaximizedPanel",
+    "when": "panelFocus"
+  },
+  {
+    "key": "alt+cmd+down",
+    "command": "workbench.action.togglePanelPosition",
+    "when": "panelFocus"
+  },
+  // ********************** macros **********************
+  {
+    "key": "cmd+k alt+w",
+    "command": "macros.collapseAndClose"
+  },
+  // *********** re-define keybindings so they take precedence ***********
+  {
+    "key": "cmd+k",
+    "command": "workbench.action.terminal.clear",
+    "when": "terminalFocus"
+  },
+  // ********************** Activity Bar **********************
+  {
+    "key": "cmd+h cmd+a",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "ctrl+alt+g",
+    "command": "workbench.view.extension.gitlens"
+  },
+  // ********************** emmets **********************
+  {
+    "key": "ctrl+w",
+    "command": "editor.emmet.action.wrapWithAbbreviation"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.switchWindow"
+  },
+  // ********************** terminal stuff **********************
+  {
+    "key": "cmd+d",
+    "command": "workbench.action.terminal.split",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+5",
+    "command": "-workbench.action.terminal.split",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "tab -",
+    "command": "editor.emmet.action.expandAbbreviation",
+    "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+  },
+  {
+    "key": "tab",
+    "command": "-editor.emmet.action.expandAbbreviation",
+    "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+  },
+  {
+    "key": "cmd+5",
+    "command": "-workbench.action.openEditorAtIndex5"
+  },
+  {
+    "key": "cmd+5",
+    "command": "-workbench.action.focusFifthEditorGroup"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "aichat.show-ai-chat"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "cmd+i",
+    "command": "aipopup.action.modal.generate",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+k",
+    "command": "-aipopup.action.modal.generate",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-focusSuggestion",
+    "when": "suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-markdown.extension.editing.toggleItalic",
+    "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-toggleSuggestionDetails",
+    "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
+  }
 ]

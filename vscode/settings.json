@@ -14,7 +14,6 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.panel.defaultLocation": "right",
   "workbench.sideBar.location": "left",
@@ -121,5 +120,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "vsicons.dontShowNewVersionMessage": true,
-  "window.commandCenter": 1
+  "window.commandCenter": 1,
+  "workbench.settings.editor": "ui",
+  "editor.minimap.enabled": true
 }

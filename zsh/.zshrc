@@ -40,3 +40,11 @@ eval "$(zoxide init zsh)"
 if [ -f ~/.zshrc_local_after ]; then
     source ~/.zshrc_local_after
 fi
+
+# TODO: figure out what to do about this bun stuff
+# bun completions
+[ -s "/Users/alejandro/.bun/_bun" ] && source "/Users/alejandro/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
