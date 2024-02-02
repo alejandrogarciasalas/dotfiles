@@ -1,4 +1,6 @@
+FaroSystemAppender constructor
 alefragnani.Bookmarks
+alefragnani.project-manager
 alexdima.copy-relative-path
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
@@ -7,11 +9,11 @@ DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 dbankier.vscode-quick-select
 dracula-theme.theme-dracula
+drKnoxy.eslint-disable-snippets
 dsznajder.es7-react-js-snippets
 eamodio.gitlens
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
-figma.figma-vscode-extension
 formulahendry.auto-rename-tag
 GitHub.copilot
 GitHub.copilot-chat
@@ -22,11 +24,11 @@ IBM.output-colorizer
 kaiwood.better-line-select
 kisstkondoros.vscode-gutter-preview
 kumar-harsh.graphql-for-vscode
+lihui.vs-color-picker
 mrmlnc.vscode-json5
 ms-azuretools.vscode-docker
 ms-dotnettools.csharp
 ms-dotnettools.vscode-dotnet-runtime
-ms-python.debugpy
 ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
@@ -56,3 +58,4 @@ vscode-icons-team.vscode-icons
 wayou.vscode-todo-highlight
 xabikos.ReactSnippets
 yzhang.markdown-all-in-one
+Zignd.html-css-class-completion

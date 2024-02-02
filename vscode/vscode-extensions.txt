@@ -11,7 +11,6 @@ dsznajder.es7-react-js-snippets
 eamodio.gitlens
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
-figma.figma-vscode-extension
 formulahendry.auto-rename-tag
 GitHub.copilot
 GitHub.copilot-chat
