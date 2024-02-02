@@ -15,7 +15,6 @@ figma.figma-vscode-extension
 formulahendry.auto-rename-tag
 GitHub.copilot
 GitHub.copilot-chat
-GitHub.copilot-labs
 GraphQL.vscode-graphql
 GraphQL.vscode-graphql-execution
 GraphQL.vscode-graphql-syntax
@@ -26,6 +25,8 @@ kumar-harsh.graphql-for-vscode
 mrmlnc.vscode-json5
 ms-azuretools.vscode-docker
 ms-dotnettools.csharp
+ms-dotnettools.vscode-dotnet-runtime
+ms-python.debugpy
 ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
