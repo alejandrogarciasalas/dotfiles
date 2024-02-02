@@ -10,16 +10,6 @@
     "key": "shift+alt+up", // it didn't work by default with the plugin
     "command": "better-line-select.upward"
   },
-  {
-    "key": "shift+alt+down",
-    "command": "-editor.action.copyLinesDownAction", // old
-    "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "shift+alt+up",
-    "command": "-editor.action.copyLinesUpAction", // old
-    "when": "editorTextFocus && !editorReadonly"
-  },
   // ************************ copy with shift+up and shift+down (old behavior was with shift+alt+up and shift+alt+down ************************
   // shift+up and shift+down seem like sensible replacements to the default vscode behavior
   {
@@ -31,16 +21,6 @@
     "key": "shift+up",
     "command": "editor.action.copyLinesUpAction",
     "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "shift+up",
-    "command": "-cursorUpSelect", // old
-    "when": "textInputFocus"
-  },
-  {
-    "key": "shift+down",
-    "command": "-cursorDownSelect", // old
-    "when": "textInputFocus"
   },
   // instead of above two command we have these
   {
@@ -54,15 +34,16 @@
     "when": "textInputFocus"
   },
   // ************************ close window with cmd+w ************************
-  // better as it emulates default macos behavior
+  // better as it emulates default macos behavior, old behavior was to close the active editor
+  // old
+  // {
+  //   "key": "shift+cmd+w",
+  //   "command": "-workbench.action.closeWindow"
+  // },
   {
     "key": "cmd+w",
     "command": "workbench.action.closeWindow",
     "when": "!editorIsOpen && !multipleEditorGroups"
-  },
-  {
-    "key": "shift+cmd+w",
-    "command": "-workbench.action.closeWindow" // old
   },
   // ************************ panel stuff ************************
   {
@@ -113,19 +94,6 @@
     "key": "cmd+h cmd+a",
     "command": "workbench.action.toggleActivityBarVisibility"
   },
-  {
-    "key": "ctrl+alt+g",
-    "command": "workbench.view.extension.gitlens"
-  },
-  // ********************** emmets **********************
-  {
-    "key": "ctrl+w",
-    "command": "editor.emmet.action.wrapWithAbbreviation"
-  },
-  {
-    "key": "ctrl+w",
-    "command": "-workbench.action.switchWindow"
-  },
   // ********************** terminal stuff **********************
   {
     "key": "cmd+d",
@@ -143,19 +111,10 @@
     "when": "terminalFocus"
   },
   {
-    "key": "tab -",
-    "command": "editor.emmet.action.expandAbbreviation",
-    "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
-  },
-  {
-    "key": "tab",
-    "command": "-editor.emmet.action.expandAbbreviation",
-    "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
-  },
-  {
     "key": "cmd+5",
     "command": "-workbench.action.openEditorAtIndex5"
   },
+  // ********************** Copilot/Cursor **********************
   {
     "key": "cmd+5",
     "command": "-workbench.action.focusFifthEditorGroup"
