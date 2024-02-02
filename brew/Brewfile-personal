@@ -5,7 +5,7 @@ cask "deluge" # bitTorrent Client
 cask "discord"
 cask "dropbox"
 # cask "fantastical"
-cask "notion"
+# cask "notion"
 cask "kindle"
 cask "steam"
 cask "skype"
