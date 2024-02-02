@@ -111,14 +111,10 @@
     "when": "terminalFocus"
   },
   // ********************** Copilot/Cursor **********************
-
   {
-    "key": "cmd+5",
-    "command": "-workbench.action.openEditorAtIndex5"
-  },
-  {
-    "key": "cmd+5",
-    "command": "-workbench.action.focusFifthEditorGroup"
+    "key": "cmd+k",
+    "command": "-aipopup.action.modal.generate",
+    "when": "editorFocus"
   },
   {
     "key": "shift+cmd+k",
@@ -129,39 +125,30 @@
     "key": "shift+cmd+k",
     "command": "aichat.show-ai-chat"
   },
-  {
-    "key": "shift+cmd+c",
-    "command": "-workbench.action.terminal.openNativeConsole",
-    "when": "!terminalFocus"
-  },
+  // --- command i ---
   {
     "key": "cmd+i",
     "command": "aipopup.action.modal.generate",
     "when": "editorFocus"
   },
   {
-    "key": "cmd+k",
-    "command": "-aipopup.action.modal.generate",
-    "when": "editorFocus"
-  },
-  {
     "key": "cmd+i",
-    "command": "-focusSuggestion",
+    "command": "-focusSuggestion", // disabled
     "when": "suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
   },
   {
     "key": "cmd+i",
-    "command": "-editor.action.triggerSuggest",
+    "command": "-editor.action.triggerSuggest", // disabled
     "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
   },
   {
     "key": "cmd+i",
-    "command": "-markdown.extension.editing.toggleItalic",
+    "command": "-markdown.extension.editing.toggleItalic", // disabled
     "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
   },
   {
     "key": "cmd+i",
-    "command": "-toggleSuggestionDetails",
+    "command": "-toggleSuggestionDetails", // disabled
     "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
   }
 ]

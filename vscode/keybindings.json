@@ -115,29 +115,25 @@
     "command": "-workbench.action.openEditorAtIndex5"
   },
   // ********************** Copilot/Cursor **********************
-  {
-    "key": "cmd+5",
-    "command": "-workbench.action.focusFifthEditorGroup"
-  },
+
   {
     "key": "shift+cmd+k",
     "command": "-editor.action.deleteLines",
     "when": "textInputFocus && !editorReadonly"
   },
-  {
-    "key": "shift+cmd+k",
-    "command": "aichat.show-ai-chat"
-  },
-  {
-    "key": "shift+cmd+c",
-    "command": "-workbench.action.terminal.openNativeConsole",
-    "when": "!terminalFocus"
-  },
-  {
-    "key": "cmd+i",
-    "command": "aipopup.action.modal.generate",
-    "when": "editorFocus"
-  },
+  // cursor
+  // {
+  //   "key": "shift+cmd+k",
+  //   "command": "aichat.show-ai-chat"
+  // },
+  // --- command i ---
+  // cursor
+  // {
+  //   "key": "cmd+i",
+  //   "command": "aipopup.action.modal.generate",
+  //   "when": "editorFocus"
+  // },
+  // copilot
   {
     "key": "cmd+k",
     "command": "-aipopup.action.modal.generate",
@@ -145,22 +141,27 @@
   },
   {
     "key": "cmd+i",
-    "command": "-focusSuggestion",
+    "command": "github.copilot.terminal.suggestCommand",
+    "when": "inlineChat.start",
+  },
+  {
+    "key": "cmd+i",
+    "command": "-focusSuggestion", // disabled
     "when": "suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
   },
   {
     "key": "cmd+i",
-    "command": "-editor.action.triggerSuggest",
+    "command": "-editor.action.triggerSuggest", // disabled
     "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
   },
   {
     "key": "cmd+i",
-    "command": "-markdown.extension.editing.toggleItalic",
+    "command": "-markdown.extension.editing.toggleItalic", // disabled
     "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
   },
   {
     "key": "cmd+i",
-    "command": "-toggleSuggestionDetails",
+    "command": "-toggleSuggestionDetails", // disabled
     "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
   }
 ]
