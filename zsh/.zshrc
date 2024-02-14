@@ -28,6 +28,7 @@ eval "$(zoxide init zsh)"
 
 # Add RVM to PATH for scripting.
 # export PATH="$PATH:$HOME/.rvm/bin"
+source ~/.dotfiles/zsh/ruby.sh
 
 # source ~/.dotfiles/zsh/python.sh
 
