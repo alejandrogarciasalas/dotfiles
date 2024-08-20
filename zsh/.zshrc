@@ -44,6 +44,7 @@ if [ -f ~/.zshrc_local_after ]; then
     source ~/.zshrc_local_after
 fi
 
+
 # TODO: figure out what to do about this bun stuff
 # bun completions
 # [ -s "/Users/alejandro/.bun/_bun" ] && source "/Users/alejandro/.bun/_bun"

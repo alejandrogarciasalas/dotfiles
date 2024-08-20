@@ -46,7 +46,7 @@ brew "yarn"
 brew "postgresql"
 brew "redis"
 
-tap 'homebrew/cask-fonts'
+# tap 'homebrew/cask-fonts' # deprecated
 
 # JS development
 # brew "nvm" # installed by zsh plugin
@@ -75,6 +75,7 @@ cask "the-unarchiver"
 cask "visual-studio-code"
 cask "cursor"
 cask "vlc"
+cask "tableplus"
 # cask "sketch"
 # TODO: add alfred
 # TODO: check mackup https://github.com/lra/mackup
