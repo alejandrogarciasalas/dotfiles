@@ -1,7 +1,6 @@
 {
   "bracketPairColorizer.showBracketsInGutter": true,
   "cSpell.language": "en",
-  "editor.fontFamily": "DejaVuSansMono Nerd Font",
   "editor.fontSize": 12,
   "terminal.integrated.fontSize": 12,
   "editor.renderWhitespace": "all",
@@ -111,5 +110,9 @@
   "vsicons.dontShowNewVersionMessage": true,
   "window.commandCenter": 1,
   "editor.minimap.enabled": true,
-  "cursor.cpp.disabledLanguages": ["yaml", "plaintext"]
+  "cursor.cpp.disabledLanguages": [
+    "yaml",
+    "plaintext"
+  ],
+  "codeviz.analyticsEnabled": true
 }

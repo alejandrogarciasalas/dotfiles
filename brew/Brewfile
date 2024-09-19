@@ -35,6 +35,7 @@ brew "tldr"
 brew "zsh"
 brew "zoxide"
 brew "zplug"
+brew "tpm"
 
 # for hackathons and experiments
 brew "http-server"
@@ -76,8 +77,8 @@ cask "visual-studio-code"
 cask "cursor"
 cask "vlc"
 cask "tableplus"
+cask "raycast"
 # cask "sketch"
-# TODO: add alfred
 # TODO: check mackup https://github.com/lra/mackup
 
 # AppStore Apps

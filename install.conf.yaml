@@ -22,6 +22,7 @@
     ~/.gitignore_global: git/gitignore_global
     # Vim
     ~/.vimrc: vim/vimrc
+    ~/.tmux.conf: tmux/tmux.conf
     # Sublime Text
     # TODO: figure out this bug fix: https://github.com/wbond/package_control/issues/1208
     # "~/Library/Application Support/Sublime Text 3/Packages/User": sublime
