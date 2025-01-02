@@ -36,7 +36,9 @@ eval "$(zoxide init zsh)"
 
 # this typically gets added to by the fzf install script along with the .fzf.zsh file
 # I am adding it here manually to have more control (see README)
-[ -f ~/.dotfiles/zsh/.fzf.zsh ] && source ~/.dotfiles/zsh/.fzf.zsh
+# 2025 I removed this because integrated terminal in vscode didn't like it,
+# message: was "azhw:zle-line-finish:zle:11: unknown option: f"  I can't remember exactly why I added it to begin with
+# [ -f ~/.dotfiles/zsh/.fzf.zsh ] && source ~/.dotfiles/zsh/.fzf.zsh
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # allow for overrides

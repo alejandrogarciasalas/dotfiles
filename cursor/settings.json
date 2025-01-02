@@ -1,6 +1,8 @@
 {
   "bracketPairColorizer.showBracketsInGutter": true,
   "cSpell.language": "en",
+  "terminal.integrated.fontFamily": "DejaVuSansMNFM",
+  "editor.fontFamily": "DejaVuSansMNFM",
   "editor.fontSize": 12,
   "terminal.integrated.fontSize": 12,
   "editor.renderWhitespace": "all",
@@ -20,7 +22,6 @@
   "editor.suggestSelection": "first",
   "workbench.settings.editor": "ui",
   "workbench.settings.useSplitJSON": true,
-  "terminal.integrated.fontFamily": "DejaVuSansMono",
   "workbench.fontAliasing": "auto",
   "editor.snippetSuggestions": "top",
   "diffEditor.ignoreTrimWhitespace": false,
@@ -120,8 +121,6 @@
   },
   "prisma.showPrismaDataPlatformNotification": false,
   "codium.enable": true,
-  "workbench.fontFamily": "Dejavu SansM Nerd Font, DejaVu Sans Mono, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontFamily": "Dejavu SansM Nerd Font, DejaVu Sans Mono, Menlo, Monaco, 'Courier New', monospace",
   "redhat.telemetry.enabled": false,
   "github.copilot.editor.enableAutoCompletions": true,
   "cursor.cpp.enablePartialAccepts": true
