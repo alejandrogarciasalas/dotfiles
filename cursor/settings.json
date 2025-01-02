@@ -120,7 +120,8 @@
   },
   "prisma.showPrismaDataPlatformNotification": false,
   "codium.enable": true,
-  "editor.fontFamily": "Dejavu Sans Mono, Menlo, Monaco, 'Courier New', monospace",
+  "workbench.fontFamily": "Dejavu SansM Nerd Font, DejaVu Sans Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Dejavu SansM Nerd Font, DejaVu Sans Mono, Menlo, Monaco, 'Courier New', monospace",
   "redhat.telemetry.enabled": false,
   "github.copilot.editor.enableAutoCompletions": true,
   "cursor.cpp.enablePartialAccepts": true

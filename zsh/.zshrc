@@ -28,11 +28,11 @@ eval "$(zoxide init zsh)"
 
 # Add RVM to PATH for scripting.
 # export PATH="$PATH:$HOME/.rvm/bin"
-source ~/.dotfiles/zsh/ruby.sh
+# source ~/.dotfiles/zsh/ruby.sh # haven't used this in a while
 
-# source ~/.dotfiles/zsh/python.sh
+# source ~/.dotfiles/zsh/python.sh # haven't used this in a while
 
-source ~/.dotfiles/zsh/chromium.sh
+# source ~/.dotfiles/zsh/chromium.sh # when will i need to build chromium from source again?
 
 # this typically gets added to by the fzf install script along with the .fzf.zsh file
 # I am adding it here manually to have more control (see README)
@@ -65,7 +65,7 @@ esac
 # pnpm end
 
 # Generated for envman. Do not edit.
-[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh" # 2024, what added this? lol, some work thing?
 
 # Added by Windsurf
 export PATH="/Users/alejandro/.codeium/windsurf/bin:$PATH"

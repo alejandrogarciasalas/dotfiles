@@ -1,7 +1,8 @@
 {
   "bracketPairColorizer.showBracketsInGutter": true,
   "cSpell.language": "en",
-  "editor.fontFamily": "DejaVuSansMono",
+  "workbench.fontFamily": "Dejavu SansM Nerd Font, DejaVu Sans Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Dejavu SansM Nerd Font, DejaVu Sans Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 12,
   "terminal.integrated.fontSize": 12,
   "editor.renderWhitespace": "all",
