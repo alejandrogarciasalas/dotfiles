@@ -55,7 +55,8 @@ brew "yarn"
 
 # Fonts
 # https://github.com/Homebrew/homebrew-cask-fonts/blob/master/Casks/font-dejavusansmono-nerd-font.rb
-cask "font-dejavu"
+cask "font-dejavu-sans-mono" # for editor i.e. vscode, cursor, windsurf etc.
+cask "font-dejavu-sans-mono-nerd-font" # for iterm lsd
 
 # Apps
 # cask "bartender"
