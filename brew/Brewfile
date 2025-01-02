@@ -15,7 +15,7 @@ brew "watchman"
 brew "bat"
 brew "diff-so-fancy"
 # brew "exa" # deprecated as of 2024 use lsd instead
-brew install lsd
+brew "lsd"
 brew "rsync"
 brew "fd"
 brew "fzf"

@@ -1,0 +1,127 @@
+{
+  "bracketPairColorizer.showBracketsInGutter": true,
+  "cSpell.language": "en",
+  "editor.fontSize": 12,
+  "terminal.integrated.fontSize": 12,
+  "editor.renderWhitespace": "all",
+  "editor.scrollBeyondLastLine": false,
+  "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "javascript ": "javascriptreact"
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.panel.defaultLocation": "right",
+  "workbench.sideBar.location": "left",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.feedback.visible": false,
+  "editor.suggestSelection": "first",
+  "workbench.settings.editor": "ui",
+  "workbench.settings.useSplitJSON": true,
+  "terminal.integrated.fontFamily": "DejaVuSansMono",
+  "workbench.fontAliasing": "auto",
+  "editor.snippetSuggestions": "top",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "macros": {
+    "collapseAndClose": [
+      "workbench.files.action.collapseExplorerFolders",
+      "workbench.action.closeAllEditors"
+    ]
+  },
+  "git.autofetch": true,
+  "gitlens.views.repositories.location": "scm",
+  "gitlens.views.fileHistory.location": "explorer",
+  "gitlens.views.lineHistory.location": "explorer",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.search.location": "gitlens",
+  "gitlens.heatmap.toggleMode": "window",
+  "gitlens.recentChanges.toggleMode": "window",
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "left": {
+        "custom": {
+          "borderWidth": "0 0 0 1px",
+          "borderStyle": "dotted",
+          "borderColor": "white",
+          "borderRadius": "5px",
+          "overviewRulerColor": "white"
+        }
+      },
+      "right": {
+        "custom": {
+          "borderWidth": "0 1px 0 0",
+          "borderStyle": "dotted",
+          "borderColor": "white",
+          "borderRadius": "5px",
+          "overviewRulerColor": "white"
+        }
+      }
+    }
+  },
+  "cSpell.userWords": ["doublevalue"],
+  "cSpell.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.autoClosingBrackets": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.autoClosingBrackets": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "yaml": false
+  },
+  "search.excludeFolders": {
+    "**/__generated__/**": true
+  },
+  "workbench.colorTheme": "OM Theme (No Italic)",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "security.workspace.trust.untrustedFiles": "open",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "window.commandCenter": 1,
+  "editor.minimap.enabled": true,
+  "cursor.cpp.disabledLanguages": ["plaintext", "scminput", "yaml"],
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prisma.showPrismaDataPlatformNotification": false,
+  "codium.enable": true,
+  "editor.fontFamily": "Dejavu Sans Mono, Menlo, Monaco, 'Courier New', monospace",
+  "redhat.telemetry.enabled": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "cursor.cpp.enablePartialAccepts": true
+}
