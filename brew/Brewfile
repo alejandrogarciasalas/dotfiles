@@ -55,7 +55,7 @@ brew "yarn"
 
 # Fonts
 # https://github.com/Homebrew/homebrew-cask-fonts/blob/master/Casks/font-dejavusansmono-nerd-font.rb
-cask "font-dejavu-sans-mono-nerd-font"
+cask "font-dejavu"
 
 # Apps
 # cask "bartender"

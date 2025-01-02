@@ -50,5 +50,22 @@ fi
 # [ -s "/Users/alejandro/.bun/_bun" ] && source "/Users/alejandro/.bun/_bun"
 
 # bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
+# export BUN_INSTALL="$HOME/.bun"
+# export PATH="$BUN_INSTALL/bin:$PATH"
+
+# added in an attempt to fix this https://github.com/getcursor/cursor/issues/1368
+[[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
+
+# pnpm
+export PNPM_HOME="/Users/alejandro/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
+# Added by Windsurf
+export PATH="/Users/alejandro/.codeium/windsurf/bin:$PATH"
