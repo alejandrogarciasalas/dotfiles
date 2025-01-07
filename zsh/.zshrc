@@ -68,6 +68,8 @@ esac
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh" # 2024, what added this? lol, some work thing?
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Added by Windsurf
 export PATH="/Users/alejandro/.codeium/windsurf/bin:$PATH"

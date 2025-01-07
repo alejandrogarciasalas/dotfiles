@@ -127,4 +127,5 @@
   "editor.quickSuggestionsDelay": 300,
   "prisma.showPrismaDataPlatformNotification": false,
   "workbench.activityBar.location": "hidden",
+  "codeviz.analyticsEnabled": false
 }

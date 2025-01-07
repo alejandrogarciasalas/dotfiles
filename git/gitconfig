@@ -18,6 +18,7 @@
 [user]
     name = "Alejandro Garcia Salas"
     email = garciasalasalejandro@gmail.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHhz7DH0whcRSkJu4X6I2HFs01FIw5OgIpN5cwqV2gyp
 [github]
     user = alejandrogarciasalas
 [include]
@@ -55,3 +56,9 @@
 [diff]
   # it looks like histogram is a faster diffing algorithm (?)
   algorithm = histogram
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
