@@ -1,6 +1,4 @@
-FaroSystemAppender constructor
 alefragnani.Bookmarks
-alefragnani.project-manager
 alexdima.copy-relative-path
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
@@ -9,8 +7,6 @@ DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 dbankier.vscode-quick-select
 dracula-theme.theme-dracula
-drKnoxy.eslint-disable-snippets
-dsznajder.es7-react-js-snippets
 eamodio.gitlens
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
@@ -56,6 +52,5 @@ ue.alphabetical-sorter
 vincaslt.highlight-matching-tag
 vscode-icons-team.vscode-icons
 wayou.vscode-todo-highlight
-xabikos.ReactSnippets
 yzhang.markdown-all-in-one
 Zignd.html-css-class-completion

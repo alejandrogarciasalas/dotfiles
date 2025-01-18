@@ -102,7 +102,7 @@
   "search.excludeFolders": {
     "**/__generated__/**": true
   },
-  "workbench.colorTheme": "OM Theme (No Italic)",
+  "workbench.colorTheme": "Dracula Theme",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "security.workspace.trust.untrustedFiles": "open",
@@ -123,5 +123,8 @@
   "codium.enable": true,
   "redhat.telemetry.enabled": false,
   "github.copilot.editor.enableAutoCompletions": true,
-  "cursor.cpp.enablePartialAccepts": true
+  "cursor.cpp.enablePartialAccepts": true,
+  "windsurf.enableConfig": {
+    "*": true
+  }
 }

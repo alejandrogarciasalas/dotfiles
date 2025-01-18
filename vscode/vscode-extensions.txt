@@ -7,7 +7,6 @@ DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 dbankier.vscode-quick-select
 dracula-theme.theme-dracula
-dsznajder.es7-react-js-snippets
 eamodio.gitlens
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
@@ -53,5 +52,4 @@ ue.alphabetical-sorter
 vincaslt.highlight-matching-tag
 vscode-icons-team.vscode-icons
 wayou.vscode-todo-highlight
-xabikos.ReactSnippets
 yzhang.markdown-all-in-one

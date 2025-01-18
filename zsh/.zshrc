@@ -38,8 +38,8 @@ eval "$(zoxide init zsh)"
 # I am adding it here manually to have more control (see README)
 # 2025 I removed this because integrated terminal in vscode didn't like it,
 # message: was "azhw:zle-line-finish:zle:11: unknown option: f"  I can't remember exactly why I added it to begin with
-# [ -f ~/.dotfiles/zsh/.fzf.zsh ] && source ~/.dotfiles/zsh/.fzf.zsh
-# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f ~/.dotfiles/zsh/.fzf.zsh ] && source ~/.dotfiles/zsh/.fzf.zsh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # allow for overrides
 if [ -f ~/.zshrc_local_after ]; then
