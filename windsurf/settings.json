@@ -126,5 +126,9 @@
   "cursor.cpp.enablePartialAccepts": true,
   "windsurf.enableConfig": {
     "*": true
-  }
+  },
+  "windsurf.autocompleteSpeed": "fast",
+  "windsurf.autoExecutionPolicy": "turbo",
+  "windsurf.explainAndFixInCurrentConversation": true,
+  "windsurf.enableAutocomplete": true
 }

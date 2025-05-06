@@ -79,10 +79,10 @@
     "when": "panelFocus"
   },
   // ********************** macros **********************
-  {
-    "key": "cmd+k alt+w",
-    "command": "macros.collapseAndClose"
-  },
+  // {
+  //   "key": "cmd+k alt+w",
+  //   "command": "macros.collapseAndClose"
+  // },
   // *********** re-define keybindings so they take precedence ***********
   {
     "key": "cmd+k",
@@ -150,5 +150,9 @@
     "key": "cmd+i",
     "command": "-toggleSuggestionDetails", // disabled
     "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "cmd+i",
+    "command": "composerMode.agent"
   }
 ]
