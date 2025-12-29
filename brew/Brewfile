@@ -49,7 +49,7 @@ brew "redis"
 # brew "nvm" # installed by zsh plugin
 
 # Fonts
-cask "font-dejavu-sans-mono" # for editor i.e. vscode, cursor, windsurf etc.
+cask "font-dejavu-sans-mono" # for editor i.e. vscode, cursor
 cask "font-dejavu-sans-mono-nerd-font" # for iterm lsd
 
 # Apps

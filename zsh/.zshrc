@@ -10,8 +10,6 @@ source ~/.dotfiles/zsh/completion.zsh
 source ~/.dotfiles/zsh/history.zsh
 source ~/.dotfiles/zsh/key-bindings.zsh
 
-# TODO:
-# source ~/.dotfiles/zsh/hub.zsh_completion
 
 # custom aliases
 source ~/.dotfiles/zsh/alias.sh

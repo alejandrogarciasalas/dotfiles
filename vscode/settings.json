@@ -63,10 +63,6 @@
   "editor.formatOnPaste": true,
   // ************ JavaScript ************
   "eslint.alwaysShowStatus": true,
-  // "editor.codeActionsOnSave": {
-  // "source.fixAll.eslint": true,
-  // "source.organizeImports": true,
-  // },
   "[javascript]": {
     "editor.formatOnSave": true, // might be redundant
     "editor.defaultFormatter": "esbenp.prettier-vscode",
