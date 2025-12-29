@@ -91,7 +91,7 @@
   },
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.untrustedFiles": "prompt",
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },

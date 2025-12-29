@@ -27,7 +27,6 @@ brew "grex" # grep regex
 brew "mas"
 brew "m-cli"
 brew "tig"
-brew "thefuck"
 brew "tmux"
 brew "tldr"
 brew "zsh"
