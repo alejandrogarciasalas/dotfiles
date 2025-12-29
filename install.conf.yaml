@@ -30,11 +30,10 @@
     ~/Library/Application Support/Cursor/User/keybindings.json: cursor/keybindings.json
 
 
-    # TODO: figure out best practices on using sh vs source.
-# source executes the script on the same shell and sh will create a fork.
+# sh vs source: sh runs in a subshell (fork), source runs in current shell.
+# We use sh here because dotbot runs commands in subprocesses anyway,
+# and you restart your terminal after dotbot to pick up changes.
 - shell:
     - [sh zsh/install.sh, changing the default shell to zsh]
-    - [sh vscode/import-extensions.sh, importing VSCode Extensions]
-    #   # `source` executes script on same shell rather thank forking
+    - [sh vscode/import-extensions.sh, importing VSCode extensions]
     - [sh node/install.sh, installing node via fnm]
-  # - [source python/install.sh, setting up pyenv, virtualenv and downloading Python]
