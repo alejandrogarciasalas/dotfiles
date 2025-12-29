@@ -7,8 +7,7 @@
 2. Install Homebrew and packages: `sh brew/install.sh`
    1. Optional: `brew bundle --file=brew/Brewfile.personal`
    2. Optional: FZF keybindings `$(brew --prefix)/opt/fzf/install`
-3. Run dotbot: `pip3 install dotbot && dotbot -c install.conf.yaml`
-   <!-- Previously used ./install script with dotbot submodule, but broke with Python 3.10+ -->
+3. Run dotbot to symlink configs: `./install` (dotbot installed via Brewfile)
 4. Finally run script to set macOS defaults: `sh macos/install.sh`
 5. Import iTerm config: `sh iterm/install.sh`
 

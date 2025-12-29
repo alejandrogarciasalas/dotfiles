@@ -14,6 +14,7 @@ brew "watchman"
 # Binaries
 brew "bat"
 brew "diff-so-fancy"
+brew "dotbot" # used by ./install to symlink dotfiles
 brew "lsd"
 brew "rsync"
 brew "fd"
