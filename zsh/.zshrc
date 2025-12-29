@@ -14,15 +14,8 @@ source ~/.dotfiles/zsh/key-bindings.zsh
 # custom aliases
 source ~/.dotfiles/zsh/alias.sh
 
-
-
-# Add RVM to PATH for scripting.
-# export PATH="$PATH:$HOME/.rvm/bin"
-# source ~/.dotfiles/zsh/ruby.sh # haven't used this in a while
-
 # source ~/.dotfiles/zsh/python.sh # haven't used this in a while
 
-# source ~/.dotfiles/zsh/chromium.sh # when will i need to build chromium from source again?
 
 # this typically gets added to by the fzf install script along with the .fzf.zsh file
 # I am adding it here manually to have more control (see README)
