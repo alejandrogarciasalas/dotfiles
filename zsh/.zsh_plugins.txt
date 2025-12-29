@@ -1,7 +1,6 @@
 docker/cli
 djui/alias-tips
 lukechilds/zsh-nvm
-mafredri/zsh-async
 sindresorhus/pure
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-completions
