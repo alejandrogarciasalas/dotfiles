@@ -102,7 +102,6 @@
   "search.excludeFolders": {
     "**/__generated__/**": true
   },
-  "workbench.colorTheme": "OM Theme (No Italic)",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "security.workspace.trust.untrustedFiles": "open",
@@ -123,5 +122,21 @@
   "codium.enable": true,
   "redhat.telemetry.enabled": false,
   "github.copilot.editor.enableAutoCompletions": true,
-  "cursor.cpp.enablePartialAccepts": true
+  "cursor.cpp.enablePartialAccepts": true,
+  "cursor.cmdk.useThemedDiffBackground": true,
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "claudeCode.preferredLocation": "sidebar"
 }

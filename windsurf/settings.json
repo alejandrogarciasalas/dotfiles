@@ -130,5 +130,6 @@
   "windsurf.autocompleteSpeed": "fast",
   "windsurf.autoExecutionPolicy": "turbo",
   "windsurf.explainAndFixInCurrentConversation": true,
-  "windsurf.enableAutocomplete": true
+  "windsurf.enableAutocomplete": true,
+  "gitlens.launchpad.indicator.enabled": false
 }

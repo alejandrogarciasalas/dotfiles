@@ -79,6 +79,8 @@ cask "cursor"
 cask "vlc"
 cask "tableplus"
 cask "raycast"
+cask "claude-code"
+cask "cleanshot"
 # cask "sketch"
 # TODO: check mackup https://github.com/lra/mackup
 

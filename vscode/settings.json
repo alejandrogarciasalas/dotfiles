@@ -112,7 +112,6 @@
   "search.excludeFolders": {
     "**/__generated__/**": true
   },
-  "workbench.colorTheme": "OM Theme (No Italic)",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "security.workspace.trust.untrustedFiles": "open",
@@ -127,5 +126,6 @@
   "editor.quickSuggestionsDelay": 300,
   "prisma.showPrismaDataPlatformNotification": false,
   "workbench.activityBar.location": "hidden",
-  "codeviz.analyticsEnabled": false
+  "codeviz.analyticsEnabled": false,
+  "workbench.colorTheme": "Visual Studio Dark - C++"
 }
