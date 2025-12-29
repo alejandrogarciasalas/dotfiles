@@ -5,8 +5,8 @@
 0. Setup GitHub SSH key before cloning (see script here: `git/setup-ssh.sh`)
 1. Clone this repo
 2. Install Homebrew and packages: `sh brew/install.sh`
-   1. Optional: `brew bundle --file=brew/Brewfile.personal`
-   2. Optional: FZF keybindings `$(brew --prefix)/opt/fzf/install`
+   - Optional: `brew bundle --file=brew/Brewfile.personal`
+   - Optional: `$(brew --prefix)/opt/fzf/install` (only if you need to regenerate `zsh/.fzf.zsh`, but this is already included in our dotfiles)
 3. Run dotbot to symlink configs: `./install` (dotbot installed via Brewfile)
 4. Finally run script to set macOS defaults: `sh macos/install.sh`
 5. Import iTerm config: `sh iterm/install.sh`
