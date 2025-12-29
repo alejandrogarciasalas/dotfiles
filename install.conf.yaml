@@ -37,5 +37,5 @@
     - [sh zsh/install.sh, changing the default shell to zsh]
     - [sh vscode/import-extensions.sh, importing VSCode Extensions]
     #   # `source` executes script on same shell rather thank forking
-    - [source node/install.sh, setting up nvm and downloading node]
+    - [sh node/install.sh, installing node via fnm]
   # - [source python/install.sh, setting up pyenv, virtualenv and downloading Python]

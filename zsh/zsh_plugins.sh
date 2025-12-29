@@ -8,4 +8,6 @@ zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-history-substring-search
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light djui/alias-tips
-zinit light lukechilds/zsh-nvm
+
+# fnm (fast node manager) - replaces nvm
+eval "$(fnm env)"
