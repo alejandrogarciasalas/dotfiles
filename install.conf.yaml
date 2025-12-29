@@ -36,4 +36,5 @@
 - shell:
     - [sh zsh/install.sh, changing the default shell to zsh]
     - [sh vscode/import-extensions.sh, importing VSCode extensions]
+    - [sh cursor/import-extensions.sh, importing Cursor extensions]
     - [sh node/install.sh, installing node via fnm]
