@@ -6,7 +6,6 @@ zinit light sindresorhus/pure
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-history-substring-search
 zinit light zsh-users/zsh-syntax-highlighting
-zinit light djui/alias-tips
 
 # completions (turbo mode - loads after prompt)
 zinit ice wait lucid atload"zicompinit; zicdreplay"
