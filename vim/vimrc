@@ -1,19 +1,12 @@
-" Sensible defaults inspired from here: https://gist.github.com/simonista/8703722
+" Sensible defaults for casual vim use
+" Inspired by: https://gist.github.com/simonista/8703722
 
-" TODO: Load plugins here
-
-" Turn on syntax highlighting
 syntax on
-
-
-" TODO: Pick a leader key
-" let mapleader = ","
-
-" Show line numbers
 set number
-
-" Encoding
 set encoding=utf-8
+set mouse=a                      " enable mouse
+set clipboard=unnamed            " use system clipboard
+set backspace=indent,eol,start   " backspace works normally
 
 " Whitespace
 set wrap
