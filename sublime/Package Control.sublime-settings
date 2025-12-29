@@ -6,30 +6,12 @@
 	"installed_packages":
 	[
 		"A File Icon",
-		"All Autocomplete",
-		"Anaconda",
-		"Babel",
-		"Babel Snippets",
-		"BetterFindBuffer",
 		"BracketHighlighter",
-		"Color Highlighter",
-		"ColorPicker",
-		"Emmet",
 		"GitGutter",
-		"Goto Usage",
-		"JavaScript Enhancements",
 		"MarkdownPreview",
-		"On Save",
 		"Package Control",
-		"Sass",
 		"SideBarEnhancements",
-		"SublimeCodeIntel",
-		"SublimeLinter",
-		"SublimeLinter-annotations",
-		"SublimeLinter-eslint",
-		"TerminalView",
 		"Theme - Spacegray",
-		"TrailingSpaces",
-		"View In Browser"
+		"TrailingSpaces"
 	]
 }

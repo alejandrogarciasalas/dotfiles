@@ -7,7 +7,6 @@
       relink: true
       force: true # Swap original file
 
-# TODO: add anything else here?
 - clean: ["~"]
 
 - link:
