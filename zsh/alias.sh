@@ -1,7 +1,6 @@
 alias ls="lsd"
 alias ll="lsd -lh"
 alias la="lsd -lhaa"
-# alias catp="bat"
 alias top="htop"
 alias ping="prettyping --nolegend"
 alias grep="rg" # ripgrep
