@@ -4,14 +4,12 @@ cask "adobe-creative-cloud" # just downloads installer
 cask "deluge" # bitTorrent Client
 cask "discord"
 cask "dropbox"
-# cask "fantastical"
 # cask "notion"
 cask "kindle"
 cask "steam"
 cask "skype"
 cask "zoom"
 mas "Bear", id: 1091189122
-# mas "Fantastical 2", id: 975937182 # TODO: didn't purchase from the appstore
 
 cask "microsoft-word"
 cask "microsoft-powerpoint"

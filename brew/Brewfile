@@ -28,7 +28,6 @@ brew "mas"
 brew "m-cli"
 brew "tig"
 brew "tmux"
-brew "tldr"
 brew "zsh"
 brew "zplug"
 brew "tpm"
@@ -51,7 +50,6 @@ cask "font-dejavu-sans-mono" # for editor i.e. vscode, cursor
 cask "font-dejavu-sans-mono-nerd-font" # for iterm lsd
 
 # Apps
-# cask "bartender"
 cask "charles"
 cask "docker"
 cask "figma"
