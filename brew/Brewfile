@@ -62,7 +62,7 @@ cask "insomnia"
 cask "iterm2"
 cask "postman"
 cask "slack"
-cask "spectacle"
+cask "rectangle" # window management (replaces deprecated Spectacle)
 cask "spotify"
 cask "sublime-text"
 cask "the-unarchiver"

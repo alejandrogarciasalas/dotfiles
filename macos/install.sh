@@ -68,9 +68,21 @@ defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebK
 # Safari: Enable "Do Not Track"
 defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
 
-# ********** Spectacle **********
-# Spectacle: preferred keyboard shortcuts
-cp -r ~/.dotfiles/macos/spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json
+# ********** Rectangle (window management) **********
+# Same shortcuts as old Spectacle setup (ctrl+alt+cmd+arrows for halves, etc.)
+defaults write com.knollsoft.Rectangle leftHalf -dict keyCode -int 123 modifierFlags -int 1835008
+defaults write com.knollsoft.Rectangle rightHalf -dict keyCode -int 124 modifierFlags -int 1835008
+defaults write com.knollsoft.Rectangle topHalf -dict keyCode -int 126 modifierFlags -int 1835008
+defaults write com.knollsoft.Rectangle bottomHalf -dict keyCode -int 125 modifierFlags -int 1835008
+defaults write com.knollsoft.Rectangle maximize -dict keyCode -int 3 modifierFlags -int 1572864
+defaults write com.knollsoft.Rectangle center -dict keyCode -int 8 modifierFlags -int 1572864
+defaults write com.knollsoft.Rectangle topLeft -dict keyCode -int 123 modifierFlags -int 1310720
+defaults write com.knollsoft.Rectangle topRight -dict keyCode -int 124 modifierFlags -int 1310720
+defaults write com.knollsoft.Rectangle bottomLeft -dict keyCode -int 123 modifierFlags -int 1441792
+defaults write com.knollsoft.Rectangle bottomRight -dict keyCode -int 124 modifierFlags -int 1441792
+defaults write com.knollsoft.Rectangle nextDisplay -dict keyCode -int 47 modifierFlags -int 1835008
+defaults write com.knollsoft.Rectangle previousDisplay -dict keyCode -int 43 modifierFlags -int 1835008
+defaults write com.knollsoft.Rectangle restore -dict keyCode -int 6 modifierFlags -int 1572864
 
 # ********** Dock **********
 # Don't show recent applications in Dock
@@ -81,7 +93,7 @@ for app in "Activity Monitor" \
 	"Dock" \
 	"Finder" \
 	"Safari" \
-	"Spectacle"; do
+	"Rectangle"; do
 	killall "${app}" &> /dev/null
 done
 
