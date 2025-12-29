@@ -30,7 +30,6 @@ brew "tig"
 brew "tmux"
 brew "tldr"
 brew "zsh"
-brew "zoxide"
 brew "zplug"
 brew "tpm"
 

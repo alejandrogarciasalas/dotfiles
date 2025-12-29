@@ -14,9 +14,6 @@ source ~/.dotfiles/zsh/key-bindings.zsh
 # custom aliases
 source ~/.dotfiles/zsh/alias.sh
 
-eval $(thefuck --alias)
-
-eval "$(zoxide init zsh)"
 
 
 # Add RVM to PATH for scripting.
@@ -33,21 +30,12 @@ eval "$(zoxide init zsh)"
 # 2025 I added it back because i miss it
 # message: was "azhw:zle-line-finish:zle:11: unknown option: f"  I can't remember exactly why I added it to begin with
 [ -f ~/.dotfiles/zsh/.fzf.zsh ] && source ~/.dotfiles/zsh/.fzf.zsh
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # allow for overrides
 if [ -f ~/.zshrc_local_after ]; then
     source ~/.zshrc_local_after
 fi
 
-
-# TODO: figure out what to do about this bun stuff
-# bun completions
-# [ -s "/Users/alejandro/.bun/_bun" ] && source "/Users/alejandro/.bun/_bun"
-
-# bun
-# export BUN_INSTALL="$HOME/.bun"
-# export PATH="$BUN_INSTALL/bin:$PATH"
 
 # added in an attempt to fix this https://github.com/getcursor/cursor/issues/1368
 [[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
@@ -62,6 +50,8 @@ esac
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh" # 2024, what added this? lol, some work thing?
+
+# bun
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-
