@@ -1,8 +1,0 @@
-docker/cli
-djui/alias-tips
-lukechilds/zsh-nvm
-sindresorhus/pure
-zsh-users/zsh-autosuggestions
-zsh-users/zsh-completions
-zsh-users/zsh-history-substring-search
-zsh-users/zsh-syntax-highlighting

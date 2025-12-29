@@ -30,7 +30,7 @@ brew "m-cli"
 brew "tig"
 brew "tmux"
 brew "zsh"
-brew "zplug"
+brew "zinit"
 brew "tpm"
 
 # for hackathons and experiments
