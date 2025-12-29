@@ -7,7 +7,6 @@ source ~/.dotfiles/zsh/zsh_plugins.sh
 
 # NOTE: oh-my-zsh defaults here for reference: https://github.com/robbyrussell/oh-my-zsh/tree/master/lib
 source ~/.dotfiles/zsh/completion.zsh
-source ~/.dotfiles/zsh/grep.zsh
 source ~/.dotfiles/zsh/history.zsh
 source ~/.dotfiles/zsh/key-bindings.zsh
 

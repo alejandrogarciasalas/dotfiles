@@ -27,7 +27,6 @@ brew "git-lfs"
 brew "grex" # grep regex
 brew "mas"
 brew "m-cli"
-brew "ripgrep"
 brew "tig"
 brew "thefuck"
 brew "tmux"
@@ -51,7 +50,6 @@ brew "redis"
 
 # JS development
 # brew "nvm" # installed by zsh plugin
-brew "yarn"
 
 # Fonts
 # https://github.com/Homebrew/homebrew-cask-fonts/blob/master/Casks/font-dejavusansmono-nerd-font.rb
