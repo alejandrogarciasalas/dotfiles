@@ -1,8 +1,4 @@
-# inspired by oh-my-zsh completion https://github.com/robbyrussell/oh-my-zsh/blob/master/lib/completion.zsh
-
-# # enable tab-completion menu
-autoload -Uz compinit
-compinit
+# completion styles (compinit handled by zinit)
 
 zstyle ':completion:*:*:*:*:*' menu select
 
