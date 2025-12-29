@@ -117,11 +117,8 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "vsicons.dontShowNewVersionMessage": true,
   "window.commandCenter": 1,
-  "workbench.settings.editor": "ui",
   "editor.minimap.enabled": true,
-  "gitlens.mode.active": "zen",
   "editor.quickSuggestionsDelay": 300,
   "prisma.showPrismaDataPlatformNotification": false,
   "workbench.activityBar.location": "hidden",

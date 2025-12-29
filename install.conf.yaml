@@ -23,18 +23,10 @@
     # Vim
     ~/.vimrc: vim/vimrc
     ~/.tmux.conf: tmux/tmux.conf
-    # Sublime Text
-    # TODO: figure out this bug fix: https://github.com/wbond/package_control/issues/1208
-    # "~/Library/Application Support/Sublime Text 3/Packages/User": sublime
     # VS Code
-    # TODO: these paths are MacOS only
     ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
     ~/Library/Application Support/Code/User/keybindings.json: vscode/keybindings.json
     ~/Library/Application Support/Code/User/snippets: vscode/snippets
-    # VSCode Insiders
-    # ~/Library/Application Support/Code - Insiders/User/settings.json: vscode/settings.json
-    # ~/Library/Application Support/Code - Insiders/User/keybindings.json: vscode/keybindings.json
-    # ~/Library/Application Support/Code - Insiders/User/snippets: vscode/snippets
     # Cursor
     ~/Library/Application Support/Cursor/User/settings.json: cursor/settings.json
     ~/Library/Application Support/Cursor/User/keybindings.json: cursor/keybindings.json
@@ -49,5 +41,4 @@
     - [sh vscode/import-extensions.sh, importing VSCode Extensions]
     #   # `source` executes script on same shell rather thank forking
     - [source node/install.sh, setting up nvm and downloading node]
-  # - [source ruby/install.sh, setting up rvm and downloading ruby]
   # - [source python/install.sh, setting up pyenv, virtualenv and downloading Python]

@@ -3,10 +3,6 @@ if [ -f ~/.zshrc_local_before ]; then
     source ~/.zshrc_local_before
 fi
 
-
-HISTSIZE=10000
-SAVEHIST=10000
-
 source ~/.dotfiles/zsh/zsh_plugins.sh
 
 # NOTE: oh-my-zsh defaults here for reference: https://github.com/robbyrussell/oh-my-zsh/tree/master/lib
@@ -72,5 +68,3 @@ esac
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-# Added by Windsurf
-export PATH="/Users/alejandro/.codeium/windsurf/bin:$PATH"
