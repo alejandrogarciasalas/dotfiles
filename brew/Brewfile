@@ -14,7 +14,6 @@ brew "watchman"
 # Binaries
 brew "bat"
 brew "diff-so-fancy"
-# brew "exa" # deprecated as of 2024 use lsd instead
 brew "lsd"
 brew "rsync"
 brew "fd"
@@ -46,13 +45,10 @@ brew "yarn"
 brew "postgresql"
 brew "redis"
 
-# tap 'homebrew/cask-fonts' # deprecated
-
 # JS development
 # brew "nvm" # installed by zsh plugin
 
 # Fonts
-# https://github.com/Homebrew/homebrew-cask-fonts/blob/master/Casks/font-dejavusansmono-nerd-font.rb
 cask "font-dejavu-sans-mono" # for editor i.e. vscode, cursor, windsurf etc.
 cask "font-dejavu-sans-mono-nerd-font" # for iterm lsd
 
@@ -84,9 +80,5 @@ cask "cleanshot"
 
 # AppStore Apps
 # mas "1Password 7", id: 1333542190
-# mas "Slack", id: 803453959 # prefer brew cask formula since it doesn't require appstore login
-# mas "Spark", id: 1176895641
-# mas "Todoist", id: 585829637
-# mas "ToothFairy", id: 1191449274
 # mas "The Unarchiver", id: 425424353
 mas "Xcode", id: 497799835
