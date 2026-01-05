@@ -36,10 +36,6 @@ case ":$PATH:" in
 esac
 # pnpm end
 
-# Generated for envman. Do not edit.
-# TODO: move to .zshrc_local_after (work thing)
-[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
-
 # bun
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 export BUN_INSTALL="$HOME/.bun"
