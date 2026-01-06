@@ -9,6 +9,7 @@
       "Bash(git log:*)",
       "Bash(git branch:*)",
       "Bash(git show:*)",
+      "Bash(git grep:*)",
       "Bash(pnpm run:*)",
       "Bash(pnpm test:*)",
       "Bash(pnpm exec tsc:*)",
