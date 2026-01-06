@@ -28,12 +28,16 @@
     # Cursor
     ~/Library/Application Support/Cursor/User/settings.json: cursor/settings.json
     ~/Library/Application Support/Cursor/User/keybindings.json: cursor/keybindings.json
+    # Claude
+    ~/.claude/CLAUDE.md: claude/CLAUDE.md
+    ~/.claude/settings.json: claude/settings.json
 
 
 # sh vs source: sh runs in a subshell (fork), source runs in current shell.
 # We use sh here because dotbot runs commands in subprocesses anyway,
 # and you restart your terminal after dotbot to pick up changes.
 - shell:
+    - [sh brew/install.sh, installing Homebrew and packages]
     - [sh zsh/install.sh, changing the default shell to zsh]
     - [sh vscode/import-extensions.sh, importing VSCode extensions]
     - [sh cursor/import-extensions.sh, importing Cursor extensions]

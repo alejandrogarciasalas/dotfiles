@@ -11,7 +11,6 @@ fi
 
 # you should link the binary at this point......
 
-brew tap homebrew/bundle  # Install Homebrew Bundle
-
+# Install packages from Brewfile (brew bundle is built-in, no tap needed)
 # TODO: figure out a cleaner way to setup this path relative to dotfiles or root directory
 brew bundle --file=brew/Brewfile # Install Brewfile

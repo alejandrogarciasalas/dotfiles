@@ -1,0 +1,31 @@
+{
+  "env": {
+    "ENABLE_EXPERIMENTAL_MCP_CLI": "true"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git branch:*)",
+      "Bash(git show:*)",
+      "Bash(pnpm run:*)",
+      "Bash(pnpm test:*)",
+      "Bash(pnpm exec tsc:*)",
+      "Bash(pnpm exec eslint:*)",
+      "Bash(pnpm typecheck:*)",
+      "Bash(scripts/*)",
+      "Bash(turbo run:*)",
+      "Bash(gh issue view:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh pr list:*)",
+      "Bash(ls :*)",
+      "Bash(pwd)",
+      "Bash(which :*)",
+      "WebSearch",
+      "mcp__linear__*",
+      "mcp__sentry__*",
+      "mcp__notion__*"
+    ]
+  }
+}

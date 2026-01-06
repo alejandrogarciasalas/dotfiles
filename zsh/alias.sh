@@ -7,4 +7,5 @@ alias grep="rg" # ripgrep
 alias hs="history|grep"
 alias g="git"
 
-alias wsf="windsurf" # windsurf is too long lol
+
+alias claude-ghg='open -a iTerm --args --arrangement "claude-ghg"'

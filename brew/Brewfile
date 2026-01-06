@@ -48,8 +48,9 @@ brew "redis"
 # node managed via fnm (see zsh/zsh_plugins.sh)
 
 # Fonts
-cask "font-dejavu-sans-mono" # for editor i.e. vscode, cursor
-cask "font-dejavu-sans-mono-nerd-font" # for iterm lsd
+# Note: font-dejavu-sans-mono-nerd-font requires homebrew/cask-fonts tap which was deprecated
+# The font may already be installed. If not, install manually with: brew install --cask font-dejavu-sans-mono-nerd-font
+# cask "font-dejavu-sans-mono-nerd-font" # for iterm lsd (includes regular dejavu sans mono)
 
 # Apps
 cask "charles"
