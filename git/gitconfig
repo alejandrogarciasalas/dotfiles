@@ -52,3 +52,9 @@
 [include]
 	path = ~/.dotfiles/git/gitalias.txt
 	path = ~/.gitconfig_local
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential

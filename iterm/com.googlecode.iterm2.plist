@@ -21605,7 +21605,7 @@
 				<key>Has Toolbelt</key>
 				<false/>
 				<key>Height</key>
-				<real>1083</real>
+				<real>1029</real>
 				<key>Hide After Opening</key>
 				<false/>
 				<key>Hiding Toolbelt Should Resize Window</key>
@@ -21619,7 +21619,7 @@
 				<key>Screen</key>
 				<integer>0</integer>
 				<key>Selected Tab Index</key>
-				<integer>5</integer>
+				<integer>0</integer>
 				<key>Tabs</key>
 				<array>
 					<dict>
@@ -22633,11 +22633,12 @@
 													<string>/Users/alejandro/code/ghg</string>
 													<string>/Users/alejandro/code/ghg</string>
 													<string>/Users/alejandro/code/ghg</string>
+													<string>/Users/alejandro/code/ghg</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/alejandro</string>
+													<string>/Users/alejandro/code/ghg</string>
 												</dict>
 												<key>Hostname to Shell</key>
 												<dict/>
@@ -22656,15 +22657,13 @@
 												</dict>
 												<key>Program</key>
 												<dict>
-													<key>Command</key>
-													<string>login -fp "alejandro"</string>
 													<key>Type</key>
-													<string>Command</string>
+													<string>Shell Launcher</string>
 												</dict>
 												<key>Rows</key>
-												<integer>29</integer>
+												<integer>27</integer>
 												<key>Session GUID</key>
-												<string>BA97916F-2430-4562-BF6F-441B5207C73D</string>
+												<string>81EA2F56-19BE-40E9-9AD3-1180DEABFE27</string>
 												<key>Short Lived Single Use</key>
 												<false/>
 												<key>Should Expect Current Dir Updates</key>
@@ -22686,7 +22685,7 @@
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>522</real>
+												<real>495</real>
 												<key>width</key>
 												<real>862</real>
 												<key>x</key>
@@ -23698,11 +23697,12 @@
 													<string>/Users/alejandro/code/ghg</string>
 													<string>/Users/alejandro/code/ghg</string>
 													<string>/Users/alejandro/code/ghg</string>
+													<string>/Users/alejandro/code/ghg</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/alejandro</string>
+													<string>/Users/alejandro/code/ghg</string>
 												</dict>
 												<key>Hostname to Shell</key>
 												<dict/>
@@ -23721,15 +23721,13 @@
 												</dict>
 												<key>Program</key>
 												<dict>
-													<key>Command</key>
-													<string>login -fp "alejandro"</string>
 													<key>Type</key>
-													<string>Command</string>
+													<string>Shell Launcher</string>
 												</dict>
 												<key>Rows</key>
-												<integer>29</integer>
+												<integer>27</integer>
 												<key>Session GUID</key>
-												<string>AFF5C5D8-B0D6-4184-9ED8-5BA944A839ED</string>
+												<string>24078B3D-F95F-4AFB-8391-94C17BE4B1BD</string>
 												<key>Short Lived Single Use</key>
 												<false/>
 												<key>Should Expect Current Dir Updates</key>
@@ -23751,13 +23749,13 @@
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>522</real>
+												<real>495</real>
 												<key>width</key>
 												<real>862</real>
 												<key>x</key>
 												<real>0.0</real>
 												<key>y</key>
-												<real>523</real>
+												<real>496</real>
 											</dict>
 										</dict>
 									</array>
@@ -23766,7 +23764,7 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>1045</real>
+										<real>991</real>
 										<key>width</key>
 										<real>862</real>
 										<key>x</key>
@@ -24807,11 +24805,12 @@
 											<string>/Users/alejandro/code/ghg</string>
 											<string>/Users/alejandro/code/ghg</string>
 											<string>/Users/alejandro/code/ghg</string>
+											<string>/Users/alejandro/code/ghg</string>
 										</array>
 										<key>Environment</key>
 										<dict>
 											<key>PWD</key>
-											<string>/Users/alejandro</string>
+											<string>/Users/alejandro/code/ghg</string>
 										</dict>
 										<key>Hostname to Shell</key>
 										<dict/>
@@ -24830,15 +24829,13 @@
 										</dict>
 										<key>Program</key>
 										<dict>
-											<key>Command</key>
-											<string>login -fp "alejandro"</string>
 											<key>Type</key>
-											<string>Command</string>
+											<string>Shell Launcher</string>
 										</dict>
 										<key>Rows</key>
-										<integer>59</integer>
+										<integer>56</integer>
 										<key>Session GUID</key>
-										<string>3D07605B-1E5A-41B5-A464-21FCD232731C</string>
+										<string>5CFAF53F-9D7B-4099-B339-C49A964EC2BD</string>
 										<key>Short Lived Single Use</key>
 										<false/>
 										<key>Should Expect Current Dir Updates</key>
@@ -24860,7 +24857,7 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>1045</real>
+										<real>991</real>
 										<key>width</key>
 										<real>865</real>
 										<key>x</key>
@@ -24875,7 +24872,7 @@
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>1045</real>
+								<real>991</real>
 								<key>width</key>
 								<real>1728</real>
 								<key>x</key>
@@ -25897,11 +25894,12 @@
 													<string>/Users/alejandro</string>
 													<string>/Users/alejandro/code/ghg1</string>
 													<string>/Users/alejandro/code/ghg1</string>
+													<string>/Users/alejandro/code/ghg1</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/alejandro</string>
+													<string>/Users/alejandro/code/ghg1</string>
 												</dict>
 												<key>Hostname to Shell</key>
 												<dict/>
@@ -25920,15 +25918,13 @@
 												</dict>
 												<key>Program</key>
 												<dict>
-													<key>Command</key>
-													<string>login -fp "alejandro"</string>
 													<key>Type</key>
-													<string>Command</string>
+													<string>Shell Launcher</string>
 												</dict>
 												<key>Rows</key>
-												<integer>29</integer>
+												<integer>27</integer>
 												<key>Session GUID</key>
-												<string>829FFFB8-16EC-47AF-AD2D-6B20E1EA90F8</string>
+												<string>1C7928D3-DFD4-430C-AEA6-9B28A9913D07</string>
 												<key>Short Lived Single Use</key>
 												<false/>
 												<key>Should Expect Current Dir Updates</key>
@@ -25950,7 +25946,7 @@
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>522</real>
+												<real>495</real>
 												<key>width</key>
 												<real>863</real>
 												<key>x</key>
@@ -26955,11 +26951,12 @@
 													<string>/Users/alejandro</string>
 													<string>/Users/alejandro/code/ghg1</string>
 													<string>/Users/alejandro/code/ghg1</string>
+													<string>/Users/alejandro/code/ghg1</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/alejandro</string>
+													<string>/Users/alejandro/code/ghg1</string>
 												</dict>
 												<key>Hostname to Shell</key>
 												<dict/>
@@ -26978,15 +26975,13 @@
 												</dict>
 												<key>Program</key>
 												<dict>
-													<key>Command</key>
-													<string>login -fp "alejandro"</string>
 													<key>Type</key>
-													<string>Command</string>
+													<string>Shell Launcher</string>
 												</dict>
 												<key>Rows</key>
-												<integer>29</integer>
+												<integer>27</integer>
 												<key>Session GUID</key>
-												<string>0A710403-D12F-4B9A-BF02-FAC3DD9F8E99</string>
+												<string>40332B6B-38E1-4E4E-9265-3CA7778052E0</string>
 												<key>Short Lived Single Use</key>
 												<false/>
 												<key>Should Expect Current Dir Updates</key>
@@ -27008,13 +27003,13 @@
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>522</real>
+												<real>495</real>
 												<key>width</key>
 												<real>863</real>
 												<key>x</key>
 												<real>0.0</real>
 												<key>y</key>
-												<real>523</real>
+												<real>496</real>
 											</dict>
 										</dict>
 									</array>
@@ -27023,7 +27018,7 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>1045</real>
+										<real>991</real>
 										<key>width</key>
 										<real>863</real>
 										<key>x</key>
@@ -28082,11 +28077,12 @@
 											<string>/Users/alejandro/code/ghg1</string>
 											<string>/Users/alejandro/code/ghg1</string>
 											<string>/Users/alejandro/code/ghg1</string>
+											<string>/Users/alejandro/code/ghg1</string>
 										</array>
 										<key>Environment</key>
 										<dict>
 											<key>PWD</key>
-											<string>/Users/alejandro</string>
+											<string>/Users/alejandro/code/ghg1</string>
 										</dict>
 										<key>Hostname to Shell</key>
 										<dict/>
@@ -28105,15 +28101,13 @@
 										</dict>
 										<key>Program</key>
 										<dict>
-											<key>Command</key>
-											<string>login -fp "alejandro"</string>
 											<key>Type</key>
-											<string>Command</string>
+											<string>Shell Launcher</string>
 										</dict>
 										<key>Rows</key>
-										<integer>59</integer>
+										<integer>56</integer>
 										<key>Session GUID</key>
-										<string>D6A64B47-CF5D-443B-B18F-8B320620B7EE</string>
+										<string>5468E771-826C-4A50-B501-81682470BA3B</string>
 										<key>Short Lived Single Use</key>
 										<false/>
 										<key>Should Expect Current Dir Updates</key>
@@ -28135,7 +28129,7 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>1045</real>
+										<real>991</real>
 										<key>width</key>
 										<real>864</real>
 										<key>x</key>
@@ -28150,7 +28144,7 @@
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>1045</real>
+								<real>991</real>
 								<key>width</key>
 								<real>1728</real>
 								<key>x</key>
@@ -29170,6 +29164,7 @@
 												<key>Directories</key>
 												<array>
 													<string>/Users/alejandro</string>
+													<string>/Users/alejandro</string>
 												</array>
 												<key>Environment</key>
 												<dict>
@@ -29193,15 +29188,13 @@
 												</dict>
 												<key>Program</key>
 												<dict>
-													<key>Command</key>
-													<string>login -fp "alejandro"</string>
 													<key>Type</key>
-													<string>Command</string>
+													<string>Shell Launcher</string>
 												</dict>
 												<key>Rows</key>
-												<integer>29</integer>
+												<integer>27</integer>
 												<key>Session GUID</key>
-												<string>41F12BA4-BADA-4E46-8582-83B578E280EB</string>
+												<string>6C07E4F6-E771-4AD0-A0B6-CD4EED788CCB</string>
 												<key>Short Lived Single Use</key>
 												<false/>
 												<key>Should Expect Current Dir Updates</key>
@@ -29223,7 +29216,7 @@
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>522</real>
+												<real>495</real>
 												<key>width</key>
 												<real>862</real>
 												<key>x</key>
@@ -30226,6 +30219,7 @@
 												<key>Directories</key>
 												<array>
 													<string>/Users/alejandro</string>
+													<string>/Users/alejandro</string>
 												</array>
 												<key>Environment</key>
 												<dict>
@@ -30249,15 +30243,13 @@
 												</dict>
 												<key>Program</key>
 												<dict>
-													<key>Command</key>
-													<string>login -fp "alejandro"</string>
 													<key>Type</key>
-													<string>Command</string>
+													<string>Shell Launcher</string>
 												</dict>
 												<key>Rows</key>
-												<integer>29</integer>
+												<integer>27</integer>
 												<key>Session GUID</key>
-												<string>7B736957-D260-446F-B2F5-E2FC1AD35C3C</string>
+												<string>A1D21FD9-2D1B-4C5D-973B-087FD5F54282</string>
 												<key>Short Lived Single Use</key>
 												<false/>
 												<key>Should Expect Current Dir Updates</key>
@@ -30279,13 +30271,13 @@
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>522</real>
+												<real>495</real>
 												<key>width</key>
 												<real>862</real>
 												<key>x</key>
 												<real>0.0</real>
 												<key>y</key>
-												<real>523</real>
+												<real>496</real>
 											</dict>
 										</dict>
 									</array>
@@ -30294,7 +30286,7 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>1045</real>
+										<real>991</real>
 										<key>width</key>
 										<real>862</real>
 										<key>x</key>
@@ -31304,11 +31296,12 @@
 											<string>/Users/alejandro/code/ghg2</string>
 											<string>/Users/alejandro/code/ghg2</string>
 											<string>/Users/alejandro/code/ghg2</string>
+											<string>/Users/alejandro/code/ghg2</string>
 										</array>
 										<key>Environment</key>
 										<dict>
 											<key>PWD</key>
-											<string>/Users/alejandro</string>
+											<string>/Users/alejandro/code/ghg2</string>
 										</dict>
 										<key>Hostname to Shell</key>
 										<dict/>
@@ -31327,15 +31320,13 @@
 										</dict>
 										<key>Program</key>
 										<dict>
-											<key>Command</key>
-											<string>login -fp "alejandro"</string>
 											<key>Type</key>
-											<string>Command</string>
+											<string>Shell Launcher</string>
 										</dict>
 										<key>Rows</key>
-										<integer>59</integer>
+										<integer>56</integer>
 										<key>Session GUID</key>
-										<string>CCA28771-2CF6-40EA-8954-D670EE4F2229</string>
+										<string>D32F620E-219F-4E75-A2B0-A136DCB075B4</string>
 										<key>Short Lived Single Use</key>
 										<false/>
 										<key>Should Expect Current Dir Updates</key>
@@ -31357,7 +31348,7 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>1045</real>
+										<real>991</real>
 										<key>width</key>
 										<real>865</real>
 										<key>x</key>
@@ -31372,7 +31363,7 @@
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>1045</real>
+								<real>991</real>
 								<key>width</key>
 								<real>1728</real>
 								<key>x</key>
@@ -32394,11 +32385,12 @@
 													<string>/Users/alejandro</string>
 													<string>/Users/alejandro/code/ghg3</string>
 													<string>/Users/alejandro/code/ghg3</string>
+													<string>/Users/alejandro/code/ghg3</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/alejandro</string>
+													<string>/Users/alejandro/code/ghg3</string>
 												</dict>
 												<key>Hostname to Shell</key>
 												<dict/>
@@ -32417,15 +32409,13 @@
 												</dict>
 												<key>Program</key>
 												<dict>
-													<key>Command</key>
-													<string>login -fp "alejandro"</string>
 													<key>Type</key>
-													<string>Command</string>
+													<string>Shell Launcher</string>
 												</dict>
 												<key>Rows</key>
-												<integer>29</integer>
+												<integer>27</integer>
 												<key>Session GUID</key>
-												<string>8B4419DE-24F1-4744-9F0A-29719694304C</string>
+												<string>78D2792D-EC65-4C60-9DDB-D9328F08ED61</string>
 												<key>Short Lived Single Use</key>
 												<false/>
 												<key>Should Expect Current Dir Updates</key>
@@ -32447,7 +32437,7 @@
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>522</real>
+												<real>495</real>
 												<key>width</key>
 												<real>863</real>
 												<key>x</key>
@@ -33452,11 +33442,12 @@
 													<string>/Users/alejandro</string>
 													<string>/Users/alejandro/code/ghg3</string>
 													<string>/Users/alejandro/code/ghg3</string>
+													<string>/Users/alejandro/code/ghg3</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/alejandro</string>
+													<string>/Users/alejandro/code/ghg3</string>
 												</dict>
 												<key>Hostname to Shell</key>
 												<dict/>
@@ -33475,15 +33466,13 @@
 												</dict>
 												<key>Program</key>
 												<dict>
-													<key>Command</key>
-													<string>login -fp "alejandro"</string>
 													<key>Type</key>
-													<string>Command</string>
+													<string>Shell Launcher</string>
 												</dict>
 												<key>Rows</key>
-												<integer>29</integer>
+												<integer>27</integer>
 												<key>Session GUID</key>
-												<string>394076E7-C399-4505-A13D-245DC75352C5</string>
+												<string>807F97CD-CD0F-4087-A83B-BB700C9855A5</string>
 												<key>Short Lived Single Use</key>
 												<false/>
 												<key>Should Expect Current Dir Updates</key>
@@ -33505,13 +33494,13 @@
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>522</real>
+												<real>495</real>
 												<key>width</key>
 												<real>863</real>
 												<key>x</key>
 												<real>0.0</real>
 												<key>y</key>
-												<real>523</real>
+												<real>496</real>
 											</dict>
 										</dict>
 									</array>
@@ -33520,7 +33509,7 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>1045</real>
+										<real>991</real>
 										<key>width</key>
 										<real>863</real>
 										<key>x</key>
@@ -34541,11 +34530,12 @@
 											<string>/Users/alejandro/code/ghg3</string>
 											<string>/Users/alejandro/code/ghg3</string>
 											<string>/Users/alejandro/code/ghg3</string>
+											<string>/Users/alejandro/code/ghg3</string>
 										</array>
 										<key>Environment</key>
 										<dict>
 											<key>PWD</key>
-											<string>/Users/alejandro</string>
+											<string>/Users/alejandro/code/ghg3</string>
 										</dict>
 										<key>Hostname to Shell</key>
 										<dict/>
@@ -34564,15 +34554,13 @@
 										</dict>
 										<key>Program</key>
 										<dict>
-											<key>Command</key>
-											<string>login -fp "alejandro"</string>
 											<key>Type</key>
-											<string>Command</string>
+											<string>Shell Launcher</string>
 										</dict>
 										<key>Rows</key>
-										<integer>59</integer>
+										<integer>56</integer>
 										<key>Session GUID</key>
-										<string>EDBC00C3-5957-44A8-9F1D-1FA2984AFDF8</string>
+										<string>7B6EAFBD-BD19-47AA-8857-F0F7539C5DC6</string>
 										<key>Short Lived Single Use</key>
 										<false/>
 										<key>Should Expect Current Dir Updates</key>
@@ -34594,7 +34582,7 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>1045</real>
+										<real>991</real>
 										<key>width</key>
 										<real>864</real>
 										<key>x</key>
@@ -34609,7 +34597,7 @@
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>1045</real>
+								<real>991</real>
 								<key>width</key>
 								<real>1728</real>
 								<key>x</key>
@@ -35638,11 +35626,12 @@
 													<string>/Users/alejandro/code</string>
 													<string>/Users/alejandro/code</string>
 													<string>/Users/alejandro/code/ghg4</string>
+													<string>/Users/alejandro/code/ghg4</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/alejandro</string>
+													<string>/Users/alejandro/code/ghg4</string>
 												</dict>
 												<key>Hostname to Shell</key>
 												<dict/>
@@ -35661,15 +35650,13 @@
 												</dict>
 												<key>Program</key>
 												<dict>
-													<key>Command</key>
-													<string>login -fp "alejandro"</string>
 													<key>Type</key>
-													<string>Command</string>
+													<string>Shell Launcher</string>
 												</dict>
 												<key>Rows</key>
-												<integer>29</integer>
+												<integer>27</integer>
 												<key>Session GUID</key>
-												<string>58FB08D1-A8AD-4A2C-A783-F5827F1722F0</string>
+												<string>F7670E7F-7769-4DB8-AA73-2E90F8D0B07E</string>
 												<key>Short Lived Single Use</key>
 												<false/>
 												<key>Should Expect Current Dir Updates</key>
@@ -35691,7 +35678,7 @@
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>522</real>
+												<real>495</real>
 												<key>width</key>
 												<real>863</real>
 												<key>x</key>
@@ -36695,11 +36682,12 @@
 												<array>
 													<string>/Users/alejandro/code/ghg4</string>
 													<string>/Users/alejandro/code/ghg4</string>
+													<string>/Users/alejandro/code/ghg4</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/alejandro</string>
+													<string>/Users/alejandro/code/ghg4</string>
 												</dict>
 												<key>Hostname to Shell</key>
 												<dict/>
@@ -36718,15 +36706,13 @@
 												</dict>
 												<key>Program</key>
 												<dict>
-													<key>Command</key>
-													<string>login -fp "alejandro"</string>
 													<key>Type</key>
-													<string>Command</string>
+													<string>Shell Launcher</string>
 												</dict>
 												<key>Rows</key>
-												<integer>29</integer>
+												<integer>27</integer>
 												<key>Session GUID</key>
-												<string>FBCBA393-FC21-40D5-A59F-67B3656EF8B7</string>
+												<string>86A87B10-6C15-4DF8-9362-2380A2B16B23</string>
 												<key>Short Lived Single Use</key>
 												<false/>
 												<key>Should Expect Current Dir Updates</key>
@@ -36748,13 +36734,13 @@
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>522</real>
+												<real>495</real>
 												<key>width</key>
 												<real>863</real>
 												<key>x</key>
 												<real>0.0</real>
 												<key>y</key>
-												<real>523</real>
+												<real>496</real>
 											</dict>
 										</dict>
 									</array>
@@ -36763,7 +36749,7 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>1045</real>
+										<real>991</real>
 										<key>width</key>
 										<real>863</real>
 										<key>x</key>
@@ -37772,11 +37758,12 @@
 											<string>/Users/alejandro/code/ghg4</string>
 											<string>/Users/alejandro/code/ghg4</string>
 											<string>/Users/alejandro/code/ghg4</string>
+											<string>/Users/alejandro/code/ghg4</string>
 										</array>
 										<key>Environment</key>
 										<dict>
 											<key>PWD</key>
-											<string>/Users/alejandro</string>
+											<string>/Users/alejandro/code/ghg4</string>
 										</dict>
 										<key>Hostname to Shell</key>
 										<dict/>
@@ -37795,15 +37782,13 @@
 										</dict>
 										<key>Program</key>
 										<dict>
-											<key>Command</key>
-											<string>login -fp "alejandro"</string>
 											<key>Type</key>
-											<string>Command</string>
+											<string>Shell Launcher</string>
 										</dict>
 										<key>Rows</key>
-										<integer>59</integer>
+										<integer>56</integer>
 										<key>Session GUID</key>
-										<string>1496CD59-00F9-4500-A118-B5B7A8C0F37A</string>
+										<string>D396772D-4D07-4F88-AA76-8FC7305E7D42</string>
 										<key>Short Lived Single Use</key>
 										<false/>
 										<key>Should Expect Current Dir Updates</key>
@@ -37825,7 +37810,7 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>1045</real>
+										<real>991</real>
 										<key>width</key>
 										<real>864</real>
 										<key>x</key>
@@ -37840,7 +37825,7 @@
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>1045</real>
+								<real>991</real>
 								<key>width</key>
 								<real>1728</real>
 								<key>x</key>
@@ -38858,6 +38843,7 @@
 											<string>/Users/alejandro</string>
 											<string>/Users/alejandro</string>
 											<string>/Users/alejandro</string>
+											<string>/Users/alejandro</string>
 										</array>
 										<key>Environment</key>
 										<dict>
@@ -38881,15 +38867,13 @@
 										</dict>
 										<key>Program</key>
 										<dict>
-											<key>Command</key>
-											<string>login -fp "alejandro"</string>
 											<key>Type</key>
-											<string>Command</string>
+											<string>Shell Launcher</string>
 										</dict>
 										<key>Rows</key>
-										<integer>61</integer>
+										<integer>58</integer>
 										<key>Session GUID</key>
-										<string>22839AD0-2632-47BD-BC13-6C92C11B469B</string>
+										<string>03F264C9-7F3D-44B4-8ABD-ADF0451E987F</string>
 										<key>Short Lived Single Use</key>
 										<false/>
 										<key>Should Expect Current Dir Updates</key>
@@ -38911,7 +38895,7 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>1045</real>
+										<real>991</real>
 										<key>width</key>
 										<real>1728</real>
 										<key>x</key>
@@ -38926,7 +38910,7 @@
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>1045</real>
+								<real>991</real>
 								<key>width</key>
 								<real>1728</real>
 								<key>x</key>
@@ -39941,6 +39925,7 @@
 										<key>Directories</key>
 										<array>
 											<string>/Users/alejandro</string>
+											<string>/Users/alejandro</string>
 										</array>
 										<key>Environment</key>
 										<dict>
@@ -39964,15 +39949,13 @@
 										</dict>
 										<key>Program</key>
 										<dict>
-											<key>Command</key>
-											<string>login -fp "alejandro"</string>
 											<key>Type</key>
-											<string>Command</string>
+											<string>Shell Launcher</string>
 										</dict>
 										<key>Rows</key>
-										<integer>61</integer>
+										<integer>58</integer>
 										<key>Session GUID</key>
-										<string>4405A39E-D5B3-4DE6-B6C5-370259F8A315</string>
+										<string>91D6D90C-D0B4-48A4-BD8E-0779ACED17BE</string>
 										<key>Short Lived Single Use</key>
 										<false/>
 										<key>Should Expect Current Dir Updates</key>
@@ -39994,7 +39977,7 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>1045</real>
+										<real>991</real>
 										<key>width</key>
 										<real>1728</real>
 										<key>x</key>
@@ -40009,7 +39992,7 @@
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>1045</real>
+								<real>991</real>
 								<key>width</key>
 								<real>1728</real>
 								<key>x</key>
@@ -40060,1154 +40043,7 @@
 				<key>X Origin</key>
 				<real>0.0</real>
 				<key>Y Origin</key>
-				<real>0.0</real>
-			</dict>
-			<dict>
-				<key>Desired Columns</key>
-				<integer>80</integer>
-				<key>Desired Rows</key>
-				<integer>25</integer>
-				<key>Has Toolbelt</key>
-				<false/>
-				<key>Height</key>
-				<real>467</real>
-				<key>Hide After Opening</key>
-				<false/>
-				<key>Hiding Toolbelt Should Resize Window</key>
-				<true/>
-				<key>Initial Profile</key>
-				<dict/>
-				<key>Is Hotkey Window</key>
-				<false/>
-				<key>Saved Window Type</key>
-				<integer>13</integer>
-				<key>Screen</key>
-				<integer>0</integer>
-				<key>Scroller Width</key>
-				<real>0.0</real>
-				<key>Selected Tab Index</key>
-				<integer>0</integer>
-				<key>Tabs</key>
-				<array>
-					<dict>
-						<key>Root</key>
-						<dict>
-							<key>Splitter ID</key>
-							<string>44DBF0A6-958C-4231-9EC6-B44D6B8A17E0</string>
-							<key>Subviews</key>
-							<array>
-								<dict>
-									<key>Is Active</key>
-									<integer>1</integer>
-									<key>Session</key>
-									<dict>
-										<key>Bookmark</key>
-										<dict>
-											<key>ASCII Anti Aliased</key>
-											<true/>
-											<key>Allow Title Reporting</key>
-											<false/>
-											<key>Ambiguous Double Width</key>
-											<false/>
-											<key>Ansi 0 Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>0.0</real>
-												<key>Green Component</key>
-												<real>0.0</real>
-												<key>Red Component</key>
-												<real>0.0</real>
-											</dict>
-											<key>Ansi 0 Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0</string>
-												<key>Green Component</key>
-												<string>0</string>
-												<key>Red Component</key>
-												<string>0</string>
-											</dict>
-											<key>Ansi 0 Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0</string>
-												<key>Green Component</key>
-												<string>0</string>
-												<key>Red Component</key>
-												<string>0</string>
-											</dict>
-											<key>Ansi 1 Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>0.3333333432674408</real>
-												<key>Green Component</key>
-												<real>0.3333333432674408</real>
-												<key>Red Component</key>
-												<real>1</real>
-											</dict>
-											<key>Ansi 1 Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0</string>
-												<key>Green Component</key>
-												<string>0</string>
-												<key>Red Component</key>
-												<string>0.8</string>
-											</dict>
-											<key>Ansi 1 Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0</string>
-												<key>Green Component</key>
-												<string>0</string>
-												<key>Red Component</key>
-												<string>0.8</string>
-											</dict>
-											<key>Ansi 10 Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>0.4823529411764706</real>
-												<key>Green Component</key>
-												<real>0.98039215686274506</real>
-												<key>Red Component</key>
-												<real>0.31372549019607843</real>
-											</dict>
-											<key>Ansi 10 Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.2039216</string>
-												<key>Green Component</key>
-												<string>0.8862745</string>
-												<key>Red Component</key>
-												<string>0.5411764999999999</string>
-											</dict>
-											<key>Ansi 10 Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.2039216</string>
-												<key>Green Component</key>
-												<string>0.8862745</string>
-												<key>Red Component</key>
-												<string>0.5411764999999999</string>
-											</dict>
-											<key>Ansi 11 Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>0.5490196078431373</real>
-												<key>Green Component</key>
-												<real>0.98039215686274506</real>
-												<key>Red Component</key>
-												<real>0.94509803921568625</real>
-											</dict>
-											<key>Ansi 11 Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.3098039</string>
-												<key>Green Component</key>
-												<string>0.9137255</string>
-												<key>Red Component</key>
-												<string>0.9882353</string>
-											</dict>
-											<key>Ansi 11 Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.3098039</string>
-												<key>Green Component</key>
-												<string>0.9137255</string>
-												<key>Red Component</key>
-												<string>0.9882353</string>
-											</dict>
-											<key>Ansi 12 Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>0.97647058823529409</real>
-												<key>Green Component</key>
-												<real>0.57647058823529407</real>
-												<key>Red Component</key>
-												<real>0.74117647058823533</real>
-											</dict>
-											<key>Ansi 12 Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.8117647</string>
-												<key>Green Component</key>
-												<string>0.6235294</string>
-												<key>Red Component</key>
-												<string>0.4470588</string>
-											</dict>
-											<key>Ansi 12 Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.8117647</string>
-												<key>Green Component</key>
-												<string>0.6235294</string>
-												<key>Red Component</key>
-												<string>0.4470588</string>
-											</dict>
-											<key>Ansi 13 Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>0.77647058823529413</real>
-												<key>Green Component</key>
-												<real>0.47450980392156861</real>
-												<key>Red Component</key>
-												<real>1</real>
-											</dict>
-											<key>Ansi 13 Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.6588235</string>
-												<key>Green Component</key>
-												<string>0.4980392</string>
-												<key>Red Component</key>
-												<string>0.6784314</string>
-											</dict>
-											<key>Ansi 13 Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.6588235</string>
-												<key>Green Component</key>
-												<string>0.4980392</string>
-												<key>Red Component</key>
-												<string>0.6784314</string>
-											</dict>
-											<key>Ansi 14 Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>0.99215686274509807</real>
-												<key>Green Component</key>
-												<real>0.9137254901960784</real>
-												<key>Red Component</key>
-												<real>0.54509803921568623</real>
-											</dict>
-											<key>Ansi 14 Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.8862745</string>
-												<key>Green Component</key>
-												<string>0.8862745</string>
-												<key>Red Component</key>
-												<string>0.2039216</string>
-											</dict>
-											<key>Ansi 14 Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.8862745</string>
-												<key>Green Component</key>
-												<string>0.8862745</string>
-												<key>Red Component</key>
-												<string>0.2039216</string>
-											</dict>
-											<key>Ansi 15 Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>1</real>
-												<key>Green Component</key>
-												<real>1</real>
-												<key>Red Component</key>
-												<real>1</real>
-											</dict>
-											<key>Ansi 15 Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.9254902</string>
-												<key>Green Component</key>
-												<string>0.9333333</string>
-												<key>Red Component</key>
-												<string>0.9333333</string>
-											</dict>
-											<key>Ansi 15 Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.9254902</string>
-												<key>Green Component</key>
-												<string>0.9333333</string>
-												<key>Red Component</key>
-												<string>0.9333333</string>
-											</dict>
-											<key>Ansi 2 Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>0.4823529411764706</real>
-												<key>Green Component</key>
-												<real>0.98039215686274506</real>
-												<key>Red Component</key>
-												<real>0.31372549019607843</real>
-											</dict>
-											<key>Ansi 2 Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.02352941</string>
-												<key>Green Component</key>
-												<string>0.6039215999999999</string>
-												<key>Red Component</key>
-												<string>0.3058824</string>
-											</dict>
-											<key>Ansi 2 Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.02352941</string>
-												<key>Green Component</key>
-												<string>0.6039215999999999</string>
-												<key>Red Component</key>
-												<string>0.3058824</string>
-											</dict>
-											<key>Ansi 3 Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>0.5490196078431373</real>
-												<key>Green Component</key>
-												<real>0.98039215686274506</real>
-												<key>Red Component</key>
-												<real>0.94509803921568625</real>
-											</dict>
-											<key>Ansi 3 Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0</string>
-												<key>Green Component</key>
-												<string>0.627451</string>
-												<key>Red Component</key>
-												<string>0.7686275</string>
-											</dict>
-											<key>Ansi 3 Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0</string>
-												<key>Green Component</key>
-												<string>0.627451</string>
-												<key>Red Component</key>
-												<string>0.7686275</string>
-											</dict>
-											<key>Ansi 4 Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>0.97647058823529409</real>
-												<key>Green Component</key>
-												<real>0.57647058823529407</real>
-												<key>Red Component</key>
-												<real>0.74117647058823533</real>
-											</dict>
-											<key>Ansi 4 Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.6431373</string>
-												<key>Green Component</key>
-												<string>0.3960784</string>
-												<key>Red Component</key>
-												<string>0.2039216</string>
-											</dict>
-											<key>Ansi 4 Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.6431373</string>
-												<key>Green Component</key>
-												<string>0.3960784</string>
-												<key>Red Component</key>
-												<string>0.2039216</string>
-											</dict>
-											<key>Ansi 5 Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>0.77647058823529413</real>
-												<key>Green Component</key>
-												<real>0.47450980392156861</real>
-												<key>Red Component</key>
-												<real>1</real>
-											</dict>
-											<key>Ansi 5 Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.4823529</string>
-												<key>Green Component</key>
-												<string>0.3137255</string>
-												<key>Red Component</key>
-												<string>0.4588235</string>
-											</dict>
-											<key>Ansi 5 Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.4823529</string>
-												<key>Green Component</key>
-												<string>0.3137255</string>
-												<key>Red Component</key>
-												<string>0.4588235</string>
-											</dict>
-											<key>Ansi 6 Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>0.99215686274509807</real>
-												<key>Green Component</key>
-												<real>0.9137254901960784</real>
-												<key>Red Component</key>
-												<real>0.54509803921568623</real>
-											</dict>
-											<key>Ansi 6 Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.6039215999999999</string>
-												<key>Green Component</key>
-												<string>0.5960785</string>
-												<key>Red Component</key>
-												<string>0.02352941</string>
-											</dict>
-											<key>Ansi 6 Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.6039215999999999</string>
-												<key>Green Component</key>
-												<string>0.5960785</string>
-												<key>Red Component</key>
-												<string>0.02352941</string>
-											</dict>
-											<key>Ansi 7 Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>0.73333334922790527</real>
-												<key>Green Component</key>
-												<real>0.73333334922790527</real>
-												<key>Red Component</key>
-												<real>0.73333334922790527</real>
-											</dict>
-											<key>Ansi 7 Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.8117647</string>
-												<key>Green Component</key>
-												<string>0.8431373</string>
-												<key>Red Component</key>
-												<string>0.827451</string>
-											</dict>
-											<key>Ansi 7 Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.8117647</string>
-												<key>Green Component</key>
-												<string>0.8431373</string>
-												<key>Red Component</key>
-												<string>0.827451</string>
-											</dict>
-											<key>Ansi 8 Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>0.33333333333333331</real>
-												<key>Green Component</key>
-												<real>0.33333333333333331</real>
-												<key>Red Component</key>
-												<real>0.33333333333333331</real>
-											</dict>
-											<key>Ansi 8 Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.3254902</string>
-												<key>Green Component</key>
-												<string>0.3411765</string>
-												<key>Red Component</key>
-												<string>0.3333333</string>
-											</dict>
-											<key>Ansi 8 Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.3254902</string>
-												<key>Green Component</key>
-												<string>0.3411765</string>
-												<key>Red Component</key>
-												<string>0.3333333</string>
-											</dict>
-											<key>Ansi 9 Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>0.33333333333333331</real>
-												<key>Green Component</key>
-												<real>0.33333333333333331</real>
-												<key>Red Component</key>
-												<real>1</real>
-											</dict>
-											<key>Ansi 9 Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.1607843</string>
-												<key>Green Component</key>
-												<string>0.1607843</string>
-												<key>Red Component</key>
-												<string>0.9372549</string>
-											</dict>
-											<key>Ansi 9 Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0.1607843</string>
-												<key>Green Component</key>
-												<string>0.1607843</string>
-												<key>Red Component</key>
-												<string>0.9372549</string>
-											</dict>
-											<key>Automatically Log</key>
-											<false/>
-											<key>BM Growl</key>
-											<true/>
-											<key>Background Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>0.15977837145328522</real>
-												<key>Green Component</key>
-												<real>0.12215272337198257</real>
-												<key>Red Component</key>
-												<real>0.11765811592340469</real>
-											</dict>
-											<key>Background Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0</string>
-												<key>Green Component</key>
-												<string>0</string>
-												<key>Red Component</key>
-												<string>0</string>
-											</dict>
-											<key>Background Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0</string>
-												<key>Green Component</key>
-												<string>0</string>
-												<key>Red Component</key>
-												<string>0</string>
-											</dict>
-											<key>Background Image Is Tiled</key>
-											<false/>
-											<key>Background Image Location</key>
-											<string></string>
-											<key>Badge Color</key>
-											<dict>
-												<key>Alpha Component</key>
-												<real>0.5</real>
-												<key>Blue Component</key>
-												<real>0.0</real>
-												<key>Color Space</key>
-												<string>sRGB</string>
-												<key>Green Component</key>
-												<real>0.14910027384757996</real>
-												<key>Red Component</key>
-												<real>1</real>
-											</dict>
-											<key>Badge Color (Dark)</key>
-											<dict>
-												<key>Alpha Component</key>
-												<real>0.5</real>
-												<key>Blue Component</key>
-												<real>0.0</real>
-												<key>Color Space</key>
-												<string>sRGB</string>
-												<key>Green Component</key>
-												<real>0.14910030364990234</real>
-												<key>Red Component</key>
-												<real>1</real>
-											</dict>
-											<key>Badge Color (Light)</key>
-											<dict>
-												<key>Alpha Component</key>
-												<real>0.5</real>
-												<key>Blue Component</key>
-												<real>0.0</real>
-												<key>Color Space</key>
-												<string>sRGB</string>
-												<key>Green Component</key>
-												<real>0.14910030364990234</real>
-												<key>Red Component</key>
-												<real>1</real>
-											</dict>
-											<key>Blend</key>
-											<real>0.30000001192092896</real>
-											<key>Blink Allowed</key>
-											<false/>
-											<key>Blinking Cursor</key>
-											<false/>
-											<key>Blur</key>
-											<false/>
-											<key>Blur Radius</key>
-											<real>2</real>
-											<key>Bold Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>1</real>
-												<key>Green Component</key>
-												<real>1</real>
-												<key>Red Component</key>
-												<real>1</real>
-											</dict>
-											<key>Bold Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>1</string>
-												<key>Green Component</key>
-												<string>1</string>
-												<key>Red Component</key>
-												<string>1</string>
-											</dict>
-											<key>Bold Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>1</string>
-												<key>Green Component</key>
-												<string>1</string>
-												<key>Red Component</key>
-												<string>1</string>
-											</dict>
-											<key>Character Encoding</key>
-											<integer>4</integer>
-											<key>Close Sessions On End</key>
-											<true/>
-											<key>Columns</key>
-											<integer>80</integer>
-											<key>Command</key>
-											<string></string>
-											<key>Cursor Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>0.73333334922790527</real>
-												<key>Green Component</key>
-												<real>0.73333334922790527</real>
-												<key>Red Component</key>
-												<real>0.73333334922790527</real>
-											</dict>
-											<key>Cursor Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>1</string>
-												<key>Green Component</key>
-												<string>1</string>
-												<key>Red Component</key>
-												<string>1</string>
-											</dict>
-											<key>Cursor Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>1</string>
-												<key>Green Component</key>
-												<string>1</string>
-												<key>Red Component</key>
-												<string>1</string>
-											</dict>
-											<key>Cursor Guide Color</key>
-											<dict>
-												<key>Alpha Component</key>
-												<real>0.25</real>
-												<key>Blue Component</key>
-												<real>1</real>
-												<key>Color Space</key>
-												<string>sRGB</string>
-												<key>Green Component</key>
-												<real>0.92681378126144409</real>
-												<key>Red Component</key>
-												<real>0.70214027166366577</real>
-											</dict>
-											<key>Cursor Guide Color (Dark)</key>
-											<dict>
-												<key>Alpha Component</key>
-												<real>0.25</real>
-												<key>Blue Component</key>
-												<real>1</real>
-												<key>Color Space</key>
-												<string>sRGB</string>
-												<key>Green Component</key>
-												<real>0.92681378126144409</real>
-												<key>Red Component</key>
-												<real>0.70214027166366577</real>
-											</dict>
-											<key>Cursor Guide Color (Light)</key>
-											<dict>
-												<key>Alpha Component</key>
-												<real>0.25</real>
-												<key>Blue Component</key>
-												<real>1</real>
-												<key>Color Space</key>
-												<string>sRGB</string>
-												<key>Green Component</key>
-												<real>0.92681378126144409</real>
-												<key>Red Component</key>
-												<real>0.70214027166366577</real>
-											</dict>
-											<key>Cursor Text Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>1</real>
-												<key>Green Component</key>
-												<real>1</real>
-												<key>Red Component</key>
-												<real>1</real>
-											</dict>
-											<key>Cursor Text Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0</string>
-												<key>Green Component</key>
-												<string>0</string>
-												<key>Red Component</key>
-												<string>0</string>
-											</dict>
-											<key>Cursor Text Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0</string>
-												<key>Green Component</key>
-												<string>0</string>
-												<key>Red Component</key>
-												<string>0</string>
-											</dict>
-											<key>Cursor Type</key>
-											<integer>2</integer>
-											<key>Custom Command</key>
-											<string>No</string>
-											<key>Custom Directory</key>
-											<string>No</string>
-											<key>Default Bookmark</key>
-											<string>No</string>
-											<key>Disable Printing</key>
-											<true/>
-											<key>Disable Smcup Rmcup</key>
-											<false/>
-											<key>Disable Window Resizing</key>
-											<true/>
-											<key>Draw Powerline Glyphs</key>
-											<true/>
-											<key>Flashing Bell</key>
-											<false/>
-											<key>Foreground Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>0.94901961088180542</real>
-												<key>Green Component</key>
-												<real>0.97254902124404907</real>
-												<key>Red Component</key>
-												<real>0.97254902124404907</real>
-											</dict>
-											<key>Foreground Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>1</string>
-												<key>Green Component</key>
-												<string>1</string>
-												<key>Red Component</key>
-												<string>1</string>
-											</dict>
-											<key>Foreground Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>1</string>
-												<key>Green Component</key>
-												<string>1</string>
-												<key>Red Component</key>
-												<string>1</string>
-											</dict>
-											<key>Guid</key>
-											<string>3FEE1BCA-817C-4DBB-807A-25F917DD8373</string>
-											<key>Hide After Opening</key>
-											<false/>
-											<key>Horizontal Spacing</key>
-											<real>1</real>
-											<key>Idle Code</key>
-											<integer>0</integer>
-											<key>Initial Text</key>
-											<string></string>
-											<key>Jobs to Ignore</key>
-											<array>
-												<string>rlogin</string>
-												<string>ssh</string>
-												<string>slogin</string>
-												<string>telnet</string>
-											</array>
-											<key>Keyboard Map</key>
-											<dict/>
-											<key>Link Color</key>
-											<dict>
-												<key>Alpha Component</key>
-												<real>1</real>
-												<key>Blue Component</key>
-												<real>0.73422712087631226</real>
-												<key>Color Space</key>
-												<string>sRGB</string>
-												<key>Green Component</key>
-												<real>0.35915297269821167</real>
-												<key>Red Component</key>
-												<real>0.0</real>
-											</dict>
-											<key>Link Color (Dark)</key>
-											<dict>
-												<key>Alpha Component</key>
-												<real>1</real>
-												<key>Blue Component</key>
-												<real>0.73422706127166748</real>
-												<key>Color Space</key>
-												<string>sRGB</string>
-												<key>Green Component</key>
-												<real>0.35915294289588928</real>
-												<key>Red Component</key>
-												<real>0.0</real>
-											</dict>
-											<key>Link Color (Light)</key>
-											<dict>
-												<key>Alpha Component</key>
-												<real>1</real>
-												<key>Blue Component</key>
-												<real>0.73422706127166748</real>
-												<key>Color Space</key>
-												<string>sRGB</string>
-												<key>Green Component</key>
-												<real>0.35915294289588928</real>
-												<key>Red Component</key>
-												<real>0.0</real>
-											</dict>
-											<key>Log Directory</key>
-											<string></string>
-											<key>Minimum Contrast</key>
-											<real>0.0</real>
-											<key>Mouse Reporting</key>
-											<true/>
-											<key>Name</key>
-											<string>Default</string>
-											<key>Non Ascii Font</key>
-											<string>DejaVuSansMNFM 11</string>
-											<key>Non-ASCII Anti Aliased</key>
-											<true/>
-											<key>Normal Font</key>
-											<string>DejaVuSansMNF 14</string>
-											<key>Option Key Sends</key>
-											<integer>2</integer>
-											<key>Prompt Before Closing 2</key>
-											<integer>0</integer>
-											<key>Right Option Key Sends</key>
-											<integer>2</integer>
-											<key>Rows</key>
-											<integer>25</integer>
-											<key>Screen</key>
-											<integer>-1</integer>
-											<key>Scrollback Lines</key>
-											<integer>1000</integer>
-											<key>Scrollback With Status Bar</key>
-											<false/>
-											<key>Scrollback in Alternate Screen</key>
-											<true/>
-											<key>Selected Text Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>1</real>
-												<key>Green Component</key>
-												<real>1</real>
-												<key>Red Component</key>
-												<real>1</real>
-											</dict>
-											<key>Selected Text Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0</string>
-												<key>Green Component</key>
-												<string>0</string>
-												<key>Red Component</key>
-												<string>0</string>
-											</dict>
-											<key>Selected Text Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>0</string>
-												<key>Green Component</key>
-												<string>0</string>
-												<key>Red Component</key>
-												<string>0</string>
-											</dict>
-											<key>Selection Color</key>
-											<dict>
-												<key>Blue Component</key>
-												<real>0.35294118523597717</real>
-												<key>Green Component</key>
-												<real>0.27843138575553894</real>
-												<key>Red Component</key>
-												<real>0.26666668057441711</real>
-											</dict>
-											<key>Selection Color (Dark)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>1</string>
-												<key>Green Component</key>
-												<string>0.8353</string>
-												<key>Red Component</key>
-												<string>0.7098</string>
-											</dict>
-											<key>Selection Color (Light)</key>
-											<dict>
-												<key>Blue Component</key>
-												<string>1</string>
-												<key>Green Component</key>
-												<string>0.8353</string>
-												<key>Red Component</key>
-												<string>0.7098</string>
-											</dict>
-											<key>Semantic History</key>
-											<dict>
-												<key>action</key>
-												<string>best editor</string>
-												<key>editor</key>
-												<string>com.sublimetext.3</string>
-												<key>text</key>
-												<string></string>
-											</dict>
-											<key>Send Code When Idle</key>
-											<false/>
-											<key>Set Local Environment Vars</key>
-											<true/>
-											<key>Shortcut</key>
-											<string></string>
-											<key>Silence Bell</key>
-											<false/>
-											<key>Smart Cursor Color</key>
-											<true/>
-											<key>Smart Selection Rules</key>
-											<array>
-												<dict>
-													<key>notes</key>
-													<string>Word bounded by whitespace</string>
-													<key>precision</key>
-													<string>low</string>
-													<key>regex</key>
-													<string>\S+</string>
-												</dict>
-												<dict>
-													<key>notes</key>
-													<string>C++ namespace::identifier</string>
-													<key>precision</key>
-													<string>normal</string>
-													<key>regex</key>
-													<string>([a-zA-Z0-9_]+::)+[a-zA-Z0-9_]+</string>
-												</dict>
-												<dict>
-													<key>notes</key>
-													<string>Paths</string>
-													<key>precision</key>
-													<string>normal</string>
-													<key>regex</key>
-													<string>\~?/?([[:letter:][:number:]._-]+/+)+[[:letter:][:number:]._-]+/?</string>
-												</dict>
-												<dict>
-													<key>notes</key>
-													<string>Quoted string</string>
-													<key>precision</key>
-													<string>normal</string>
-													<key>regex</key>
-													<string>@?"(?:[^"\\]|\\.)*"</string>
-												</dict>
-												<dict>
-													<key>notes</key>
-													<string>Java/Python include paths</string>
-													<key>precision</key>
-													<string>normal</string>
-													<key>regex</key>
-													<string>([[:letter:][:number:]._]+\.)+[[:letter:][:number:]._]+</string>
-												</dict>
-												<dict>
-													<key>notes</key>
-													<string>mailto URL</string>
-													<key>precision</key>
-													<string>normal</string>
-													<key>regex</key>
-													<string>\bmailto:([a-z0-9A-Z_]+@)?([a-zA-Z0-9\-]+\.)*[a-zA-Z0-9\-]+\b</string>
-												</dict>
-												<dict>
-													<key>notes</key>
-													<string>Obj-C selector</string>
-													<key>precision</key>
-													<string>high</string>
-													<key>regex</key>
-													<string>@selector\([^)]+\)</string>
-												</dict>
-												<dict>
-													<key>notes</key>
-													<string>email address</string>
-													<key>precision</key>
-													<string>high</string>
-													<key>regex</key>
-													<string>\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b</string>
-												</dict>
-												<dict>
-													<key>notes</key>
-													<string>HTTP URL</string>
-													<key>precision</key>
-													<string>very_high</string>
-													<key>regex</key>
-													<string>https?://([a-z0-9A-Z]+(:[a-zA-Z0-9]+)?@)?[a-z0-9A-Z]+(\.[a-z0-9A-Z]+)*((:[0-9]+)?)(/[a-zA-Z0-9;/\.\-_+%~?&amp;@=#\(\)]*)?</string>
-												</dict>
-												<dict>
-													<key>notes</key>
-													<string>SSH URL</string>
-													<key>precision</key>
-													<string>very_high</string>
-													<key>regex</key>
-													<string>\bssh:([a-z0-9A-Z_]+@)?([a-zA-Z0-9\-]+\.)*[a-zA-Z0-9\-]+\b</string>
-												</dict>
-												<dict>
-													<key>notes</key>
-													<string>Telnet URL</string>
-													<key>precision</key>
-													<string>very_high</string>
-													<key>regex</key>
-													<string>\btelnet:([a-z0-9A-Z_]+@)?([a-zA-Z0-9\-]+\.)*[a-zA-Z0-9\-]+\b</string>
-												</dict>
-											</array>
-											<key>Sync Title</key>
-											<false/>
-											<key>Tags</key>
-											<array/>
-											<key>Terminal Type</key>
-											<string>xterm-256color</string>
-											<key>Transparency</key>
-											<real>0.0</real>
-											<key>Triggers</key>
-											<array/>
-											<key>Unlimited Scrollback</key>
-											<false/>
-											<key>Use Bold Font</key>
-											<true/>
-											<key>Use Bright Bold</key>
-											<true/>
-											<key>Use Canonical Parser</key>
-											<false/>
-											<key>Use Italic Font</key>
-											<true/>
-											<key>Use Separate Colors for Light and Dark Mode</key>
-											<true/>
-											<key>Use Tab Color</key>
-											<false/>
-											<key>Vertical Spacing</key>
-											<real>1</real>
-											<key>Visual Bell</key>
-											<true/>
-											<key>Window Type</key>
-											<integer>13</integer>
-											<key>Working Directory</key>
-											<string>/Users/alejandro</string>
-										</dict>
-										<key>Columns</key>
-										<integer>80</integer>
-										<key>Commands</key>
-										<array/>
-										<key>Directories</key>
-										<array/>
-										<key>Environment</key>
-										<dict>
-											<key>PWD</key>
-											<string>/Users/alejandro</string>
-										</dict>
-										<key>Hostname to Shell</key>
-										<dict/>
-										<key>Hosts</key>
-										<array/>
-										<key>Is UTF-8</key>
-										<true/>
-										<key>Key Labels</key>
-										<dict/>
-										<key>Name Controller State</key>
-										<dict>
-											<key>icon title stack</key>
-											<array/>
-											<key>window title stack</key>
-											<array/>
-										</dict>
-										<key>Program</key>
-										<dict>
-											<key>Command</key>
-											<string>login -fp "alejandro"</string>
-											<key>Type</key>
-											<string>Command</string>
-										</dict>
-										<key>Rows</key>
-										<integer>25</integer>
-										<key>Session GUID</key>
-										<string>1325463F-8C7A-4F5E-8BD6-BC48B7B36ECC</string>
-										<key>Short Lived Single Use</key>
-										<false/>
-										<key>Should Expect Current Dir Updates</key>
-										<false/>
-										<key>Should Expect Prompt Marks</key>
-										<false/>
-										<key>Substitutions</key>
-										<dict>
-											<key>$$$$</key>
-											<string>$$</string>
-										</dict>
-										<key>Working Directory</key>
-										<string>/Users/alejandro</string>
-										<key>Working Directory Poller Disabled</key>
-										<false/>
-									</dict>
-									<key>View Type</key>
-									<string>SessionView</string>
-									<key>frame</key>
-									<dict>
-										<key>height</key>
-										<real>429</real>
-										<key>width</key>
-										<real>650</real>
-										<key>x</key>
-										<real>0.0</real>
-										<key>y</key>
-										<real>0.0</real>
-									</dict>
-								</dict>
-							</array>
-							<key>View Type</key>
-							<string>Splitter</string>
-							<key>frame</key>
-							<dict>
-								<key>height</key>
-								<real>429</real>
-								<key>width</key>
-								<real>650</real>
-								<key>x</key>
-								<real>0.0</real>
-								<key>y</key>
-								<real>0.0</real>
-							</dict>
-							<key>isVertical</key>
-							<false/>
-						</dict>
-						<key>Tab GUID</key>
-						<string>C539A834-EBC7-4E2D-91AA-9FD2C27F89AE</string>
-					</dict>
-				</array>
-				<key>TerminalGuid</key>
-				<string>pty-D92628B4-B81C-4142-97B9-7A99F652B0E5</string>
-				<key>Toolbelt</key>
-				<dict>
-					<key>Profiles</key>
-					<dict>
-						<key>iTermToolProfilesProfileListViewState</key>
-						<dict>
-							<key>iTermProfileListViewRestorableStateTagsFraction</key>
-							<real>0.0</real>
-							<key>iTermProfileListViewRestorableStateTagsVisible</key>
-							<false/>
-						</dict>
-					</dict>
-				</dict>
-				<key>Toolbelt Proportions</key>
-				<dict>
-					<key>proportions</key>
-					<array>
-						<dict>
-							<key>heightAsFraction</key>
-							<real>1</real>
-							<key>name</key>
-							<string>Profiles</string>
-						</dict>
-					</array>
-				</dict>
-				<key>Use Transparency</key>
-				<true/>
-				<key>Width</key>
-				<real>650</real>
-				<key>Window Type</key>
-				<integer>13</integer>
-				<key>X Origin</key>
-				<real>864</real>
-				<key>Y Origin</key>
-				<real>616</real>
+				<real>54</real>
 			</dict>
 		</array>
 	</dict>

@@ -1,7 +1,5 @@
 {
-  "env": {
-    "ENABLE_EXPERIMENTAL_MCP_CLI": "true"
-  },
+  "env": {},
   "permissions": {
     "allow": [
       "Bash(git status:*)",
@@ -28,5 +26,6 @@
       "mcp__sentry__*",
       "mcp__notion__*"
     ]
-  }
+  },
+  "skipDangerousModePermissionPrompt": true
 }

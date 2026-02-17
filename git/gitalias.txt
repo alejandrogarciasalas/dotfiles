@@ -76,6 +76,10 @@
 	cleanest = clean -ffdx
 	prune-all = !git remote | xargs -n 1 git remote prune
 
+	# wip - save/restore work-in-progress
+	wip = !"git add --all; git ls-files --deleted -z | xargs -0 git rm; git commit --message=wip"
+	unwip = !"git log -n 1 | grep -q -c wip && git reset HEAD~1"
+
 	# merge helpers
 	ours = "!f() { git checkout --ours $@ && git add $@; }; f"
 	theirs = "!f() { git checkout --theirs $@ && git add $@; }; f"
